@@ -1,0 +1,322 @@
+@import "./general.scss";
+
+.profile {
+  padding: 1rem 0;
+  margin: 0 5%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  height: 100%;
+
+  &__image {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+
+    &-options {
+      display: flex;
+      gap: 1rem;
+
+      input {
+        display: none;
+      }
+
+      button {
+        font-size: 1.3rem;
+        height: 2.5rem;
+
+        &:first-child {
+          @include button($color-primary, white);
+        }
+
+        &:last-child {
+          @include button(white, $color-primary);
+          padding-left: 1.5rem;
+          padding-right: 1.5rem;
+        }
+      }
+    }
+
+    img {
+      width: 8rem;
+      height: 8rem;
+      border-radius: 10rem;
+    }
+  }
+
+  &__user-avatar {
+    @include userAvatar(8rem, 8rem);
+    position: relative;
+
+    &__change {
+      width: 100%;
+      height: 40%;
+      /* top-right top-left bottom-left bottom-right */
+      /* or from 10.30 clockwise */
+      background: radial-gradient(
+        ellipse at 50% 116%,
+        #0000008a 70%,
+        transparent 70%
+      );
+      transform: rotate(180deg);
+      position: absolute;
+      bottom: -0.1rem;
+
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      z-index: 1;
+
+      .icon {
+        transform: rotate(180deg);
+      }
+    }
+  }
+
+  &__info {
+    margin-top: 2rem;
+
+    h2 {
+      color: $color-secondary;
+      margin-bottom: 1.2rem;
+    }
+
+    p {
+      color: $color-primary;
+      font-weight: bold;
+      font-size: large;
+      margin-bottom: 0.7rem;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+
+      span {
+        font-weight: normal;
+      }
+    }
+
+    &-edit {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  &__edit {
+    display: flex;
+    flex-direction: column;
+
+    label {
+      color: $color-primary;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+
+    input,
+    select {
+      @include input();
+
+      &[type="submit"] {
+        @include button($color-primary, white);
+        margin-top: 1.4rem;
+        height: 2.7rem;
+      }
+
+      option {
+        &:hover {
+          cursor: pointer;
+          background-color: $color-primary;
+          color: white;
+        }
+      }
+    }
+  }
+
+  &__bmi-info {
+    padding: 1rem 0;
+    margin: 0 5%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin-top: 2rem;
+    color: $color-secondary;
+
+    h3 {
+      width: 100%;
+      margin-bottom: 1rem;
+      margin-top: 1rem;
+    }
+
+    p {
+      color: $color-secondary;
+      font-weight: normal;
+      gap: 0;
+      font-size: 1rem;
+      line-height: 1.5rem;
+    }
+
+    li {
+      font-size: 1rem;
+      line-height: 1.5rem;
+      margin-left: 1rem;
+    }
+  }
+
+  @include responsive($xl) {
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+
+    &__image {
+      width: 45%;
+      gap: 3rem;
+      border-right: 1px solid $color-primary;
+      position: fixed;
+      left: 0;
+      top: 10rem;
+
+      &-options {
+        display: flex;
+        gap: 1rem;
+
+        button {
+          font-size: 1.5rem;
+          height: 2.5rem;
+        }
+      }
+
+      img {
+        width: 18rem;
+        height: 18rem;
+      }
+    }
+
+    &__user-avatar {
+      @include userAvatar(18rem, 18rem);
+
+      &__change {
+        .icon {
+          font-size: 3rem;
+        }
+      }
+    }
+
+    &__info {
+      width: 50%;
+
+      h2 {
+        font-size: 1.7rem;
+        margin-bottom: 1.6rem;
+      }
+
+      p {
+        font-size: 1.3rem;
+      }
+
+      &-edit {
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+
+    &__edit {
+      margin-bottom: -5rem;
+    }
+
+    &__bmi-info {
+      h3 {
+        font-size: 1.5rem;
+      }
+
+      p {
+        font-size: 1.2rem;
+        line-height: 1.7rem;
+      }
+
+      li {
+        font-size: 1.2rem;
+        line-height: 1.7rem;
+      }
+    }
+  }
+}
+
+.bmi {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dark {
+  .profile {
+    &__image {
+      &-options {
+        button {
+          &:first-child {
+            @include button($color-secondary, white);
+          }
+
+          &:last-child {
+            @include button(white, $color-secondary);
+          }
+        }
+      }
+    }
+
+    &__user-avatar {
+      @include userAvatar(8rem, 8rem, white, $color-secondary);
+    }
+
+    &__info {
+      h2 {
+        color: white;
+      }
+
+      p {
+        color: white;
+      }
+    }
+
+    &__edit {
+      label {
+        color: white;
+      }
+
+      input,
+      select {
+        @include input($color-secondary);
+
+        &[type="submit"] {
+          @include button($color-secondary, white);
+        }
+
+        option {
+          &:hover {
+            cursor: pointer;
+            background-color: $color-primary;
+            color: white;
+          }
+        }
+      }
+    }
+
+    &__bmi-info {
+      color: white;
+
+      p {
+        color: white;
+      }
+    }
+
+    @include responsive($xl) {
+      &__image {
+        border-right-color: white;
+      }
+
+      &__user-avatar {
+        @include userAvatar(18rem, 18rem, white, $color-secondary);
+      }
+    }
+  }
+}

@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=M+PLUS+Rounded+1c:wght@400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}
+
+.ternary {
+  color: #deb992;
+}
+
+.warning-message {
+  color: #8d2121;
+  margin-top: -1rem;
+  margin-bottom: 0.5rem;
+  background-color: rgba(141, 33, 33, 0.2);
+  border-radius: 0.2rem;
+  border: none;
+  padding: 0.8rem 1.3rem;
+  text-align: center;
+}
+
+#active-button {
+  padding: 0.3rem 0.9rem;
+  color: white;
+  background-color: #218d87;
+  border: 1px solid white;
+  border-radius: 0.14rem;
+  outline: none;
+}
+#active-button:hover {
+  cursor: pointer;
+}
+
+.dark #active-button {
+  padding: 0.3rem 0.9rem;
+  color: #0e3b39;
+  background-color: white;
+  border: 1px solid #0e3b39;
+  border-radius: 0.14rem;
+  outline: none;
+}
+.dark #active-button:hover {
+  cursor: pointer;
+}
+
+.examination {
+  padding: 1rem 0;
+  margin: 0 5%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.examination__visualization {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.examination__view-options {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.examination__view-options button {
+  padding: 0.3rem 0.9rem;
+  color: #218d87;
+  background-color: white;
+  border: 1px solid #218d87;
+  border-radius: 0.14rem;
+  outline: none;
+}
+.examination__view-options button:hover {
+  cursor: pointer;
+}
+.examination__view {
+  height: 17rem;
+  width: 100%;
+}
+.examination__info {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  color: #0e3b39;
+}
+.examination__info h3 {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.examination__info li,
+.examination__info p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.examination__info li {
+  margin-left: 1rem;
+}
+.examination__warning {
+  color: #8d2121;
+  padding: 1rem 0.7rem;
+  border: 2px solid #8d2121;
+  border-radius: 0.2rem;
+  width: 100%;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 3rem;
+}
+@media (min-width: 1200px) {
+  .examination {
+    padding-top: 4rem;
+  }
+  .examination__visualization {
+    width: 45%;
+    height: 80vh;
+    justify-content: start;
+    align-items: start;
+    position: fixed;
+    gap: 2rem;
+  }
+  .examination__view-options button {
+    font-size: 1.2rem;
+  }
+  .examination__infoContainer {
+    width: 45%;
+    margin-left: 55%;
+  }
+  .examination__info h3 {
+    font-size: 1.5rem;
+  }
+  .examination__info li,
+.examination__info p {
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+  }
+  .examination__warning {
+    font-size: 1.2rem;
+  }
+}
+
+.dark .examination__view-options button {
+  padding: 0.3rem 0.9rem;
+  color: white;
+  background-color: #0e3b39;
+  border: 1px solid white;
+  border-radius: 0.14rem;
+  outline: none;
+}
+.dark .examination__view-options button:hover {
+  cursor: pointer;
+}
+.dark .examination__view {
+  height: 17rem;
+  width: 100%;
+}
+.dark .examination__info {
+  color: white;
+}
+.dark .examination__warning {
+  color: #ff6262;
+  border-color: #ff6262;
+}
+.dark .table {
+  border-color: white;
+}
+.dark .table .table__head {
+  color: #0e3b39;
+  background-color: white;
+}
+.dark .table .table__head th {
+  border-right-color: #0e3b39;
+}
+.dark .table .table__head th .icon {
+  color: #0e3b39;
+}
+.dark .table .table__body {
+  color: white;
+}
+.dark .table .table__body td {
+  border-color: white;
+}
+
+.table {
+  border: 1px solid #218d87;
+  text-align: center;
+  width: 100%;
+  border-collapse: collapse;
+  overflow-x: scroll;
+}
+.table .table__head {
+  color: white;
+  background-color: #218d87;
+}
+.table .table__head th {
+  padding: 0.5rem 0.8rem;
+  border-right: 1px solid white;
+  font-weight: 100;
+}
+.table .table__head th div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.2rem;
+}
+.table .table__head th:last-of-type {
+  border-right: none;
+}
+.table .table__head th .icon {
+  color: white;
+  transform: rotate(90deg);
+  font-size: 1rem;
+}
+.table .table__body {
+  font-size: 0.8rem;
+  color: #0e3b39;
+}
+.table .table__body td {
+  padding: 0.5rem 0.2rem;
+  border: 1px solid #218d87;
+}
+@media (min-width: 1200px) {
+  .table {
+    font-size: 1.2rem;
+  }
+  .table .table__body {
+    font-size: 1rem;
+  }
+}
+
+/*# sourceMappingURL=examination.css.map */

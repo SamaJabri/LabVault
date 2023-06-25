@@ -1,0 +1,371 @@
+@import "./general.scss";
+
+.labs {
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 0 5%;
+
+  h2 {
+    color: $color-secondary;
+  }
+
+  &__filter {
+    display: flex;
+    justify-content: center;
+    justify-content: flex-end;
+    gap: 1rem;
+    width: 100%;
+    position: relative;
+
+    &-container {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 1rem;
+      border: 1px solid $color-primary;
+      border-radius: 0.3rem;
+      padding: 0.5rem 1rem;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+
+    &-button {
+      font-size: 1.2rem;
+      color: $color-primary;
+    }
+
+    &-selection,
+    &-desktop {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      gap: 1rem;
+      position: absolute;
+      top: 3rem;
+      width: 100%;
+      padding: 1rem 2rem;
+      background-color: white;
+      scroll-behavior: none;
+      z-index: 1;
+
+      label {
+        color: $color-primary;
+        font-size: 1.2rem;
+      }
+
+      select,
+      input {
+        padding: 1rem;
+        width: 100%;
+        color: $color-primary;
+        font-size: 1.3rem;
+        outline: none;
+        border-color: $color-primary;
+        border-radius: 0.3rem;
+      }
+
+      input {
+        @include input();
+        padding: 1rem;
+        margin-bottom: 0;
+      }
+
+      h3 {
+        color: $color-primary;
+        font-size: 1.3rem;
+        text-align: left;
+      }
+    }
+
+    &-confirm {
+      @include button($color-primary, white);
+      font-size: 1.5rem;
+      margin-top: 2rem;
+      margin-left: 7rem;
+    }
+
+    &-desktop {
+      display: none;
+    }
+  }
+
+  &__applied-filters {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+
+    &-item {
+      background-color: $color-primary-disabled;
+      border: none;
+      border-radius: 3rem;
+      padding: 0.7rem 1rem;
+      color: $color-primary;
+      position: relative;
+    }
+
+    &-delete {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: -0.5rem;
+      right: -0.5rem;
+      background-color: white;
+      border: 1px solid $color-primary;
+      border-radius: 3rem;
+      padding: 0.2rem 0.5rem;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  &__no-list {
+    text-align: center;
+    margin-top: 10rem;
+    font-size: 1.8rem;
+    color: $color-primary;
+  }
+
+  @include responsive($xl) {
+    &__filter {
+      position: fixed;
+      top: 3rem;
+      left: 0;
+      width: 30%;
+      height: 100%;
+      border-right: 1px solid $color-primary;
+
+      &-container {
+        display: none;
+      }
+
+      &-desktop {
+        display: flex;
+      }
+    }
+
+    &__applied-filters {
+      margin-left: 30%;
+
+      &-item {
+        font-size: 1.2rem;
+      }
+
+      &-delete {
+        padding: 0.05rem 0.5rem;
+      }
+    }
+
+    &__list {
+      margin-left: 30%;
+    }
+
+    h2 {
+      margin-left: 30%;
+      font-size: 1.9rem;
+    }
+  }
+}
+
+.lab-test {
+  width: 100%;
+  border-bottom: 1px solid $color-primary;
+  border-radius: 0.2rem;
+  background-color: white;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.8rem;
+  transition: all 0.3s;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 3px;
+
+  &:hover {
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 8px;
+    transform: translateY(-5px);
+  }
+
+  &__date {
+    color: $color-primary;
+    text-align: center;
+
+    h4 {
+      font-size: 1.2rem;
+    }
+  }
+
+  &__info {
+    color: $color-secondary;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.4rem;
+  }
+}
+
+// TestDetails Page
+.test-details {
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 0 5%;
+
+  &__results {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  &__info {
+    color: $color-secondary;
+
+    h3 {
+      margin-top: 1.5rem;
+      width: 100%;
+      margin-bottom: 1rem;
+      text-transform: capitalize;
+    }
+
+    p {
+      font-size: 1rem;
+      line-height: 1.5rem;
+    }
+  }
+
+  &__sample-type {
+    margin-top: 1rem;
+
+    span {
+      font-weight: normal;
+    }
+  }
+
+  @include responsive($xl) {
+    padding-top: 3rem;
+    flex-direction: row;
+    position: relative;
+
+    &__results {
+      width: 40%;
+    }
+
+    &__info {
+      position: fixed;
+      right: 5%;
+      width: 50%;
+
+      h3 {
+        font-size: 1.5rem;
+      }
+
+      p {
+        font-size: 1.2rem;
+        line-height: 1.7rem;
+      }
+    }
+
+    &__sample-type {
+      font-size: 1.2rem;
+
+      span {
+        font-weight: normal;
+      }
+    }
+  }
+}
+
+.dark {
+  .labs {
+    h2 {
+      color: white;
+    }
+
+    &__filter {
+      border-color: white;
+
+      &-container {
+        border-color: white;
+      }
+
+      &-button {
+        color: white;
+      }
+
+      &-selection,
+      &-desktop {
+        background-color: $color-secondary;
+
+        label,
+        h3 {
+          color: white;
+        }
+
+        select {
+          color: $color-secondary;
+          border-color: $color-secondary;
+        }
+      }
+
+      &-confirm {
+        @include button(white, $color-secondary);
+      }
+
+      input {
+        @include input($color-secondary);
+      }
+    }
+
+    &__applied-filters {
+      &-item {
+        color: white;
+      }
+
+      &-delete {
+        color: $color-secondary;
+        border-color: $color-secondary;
+      }
+    }
+
+    &__no-list {
+      color: white;
+    }
+  }
+
+  .lab-test {
+    //background-color: $color-secondary;
+    background-color: $color-primary-disabled;
+    border-color: white;
+
+    &:hover {
+      box-shadow: rgba(255, 255, 255, 0.24) 0px 5px 8px;
+    }
+
+    &__info,
+    &__date {
+      color: white;
+    }
+  }
+
+  .test-details {
+    &__info {
+      color: white;
+    }
+  }
+}

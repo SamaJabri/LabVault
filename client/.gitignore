@@ -1,0 +1,8 @@
+# Dependencies
+/node_modules
+
+# Built files
+/build
+
+# Editor specific files
+.vscode/

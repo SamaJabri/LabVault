@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink" style="margin:auto;background:transparent;display:block;" width="207px" height="207px" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid">
+    <defs>
+        <clipPath id="ldio-nnadl3hzcgm-cp" clipPathUnits="userSpaceOnUse">
+            <rect x="0" y="54" width="100" height="46"></rect>
+        </clipPath>
+        <pattern id="ldio-nnadl3hzcgm-pattern" patternUnits="userSpaceOnUse" x="0" y="0" width="100" height="100">
+            <rect x="0" y="0" width="100" height="100" fill="#71c1bc"></rect>
+            <circle cx="26" cy="0" r="4" fill="#adf8f4">
+                <animateTransform attributeName="transform" type="translate" values="0 144;0 -44" keyTimes="0;1" dur="3.125s" begin="-0.40625s" repeatCount="indefinite"></animateTransform>
+            </circle>
+            <circle cx="45" cy="0" r="3" fill="#adf8f4">
+                <animateTransform attributeName="transform" type="translate" values="0 119;0 -19" keyTimes="0;1" dur="3.125s" begin="-2.78125s" repeatCount="indefinite"></animateTransform>
+            </circle>
+            <circle cx="90" cy="0" r="3" fill="#adf8f4">
+                <animateTransform attributeName="transform" type="translate" values="0 110;0 -10" keyTimes="0;1" dur="3.125s" begin="-1.25s" repeatCount="indefinite"></animateTransform>
+            </circle>
+            <circle cx="15" cy="0" r="3" fill="#adf8f4">
+                <animateTransform attributeName="transform" type="translate" values="0 141;0 -41" keyTimes="0;1" dur="3.125s" begin="-2.9375s" repeatCount="indefinite"></animateTransform>
+            </circle>
+            <circle cx="13" cy="0" r="3" fill="#adf8f4">
+                <animateTransform attributeName="transform" type="translate" values="0 148;0 -48" keyTimes="0;1" dur="3.125s" begin="-1.21875s" repeatCount="indefinite"></animateTransform>
+            </circle>
+            <circle cx="90" cy="0" r="2" fill="#adf8f4">
+                <animateTransform attributeName="transform" type="translate" values="0 133;0 -33" keyTimes="0;1" dur="3.125s" begin="-1.0625s" repeatCount="indefinite"></animateTransform>
+            </circle>
+            <circle cx="99" cy="0" r="3" fill="#adf8f4">
+                <animateTransform attributeName="transform" type="translate" values="0 127;0 -27" keyTimes="0;1" dur="3.125s" begin="-1.21875s" repeatCount="indefinite"></animateTransform>
+            </circle>
+            <circle cx="76" cy="0" r="3" fill="#adf8f4">
+                <animateTransform attributeName="transform" type="translate" values="0 120;0 -20" keyTimes="0;1" dur="3.125s" begin="-0.6875s" repeatCount="indefinite"></animateTransform>
+            </circle>
+            <circle cx="22" cy="0" r="4" fill="#adf8f4">
+                <animateTransform attributeName="transform" type="translate" values="0 151;0 -51" keyTimes="0;1" dur="3.125s" begin="-1.9375s" repeatCount="indefinite"></animateTransform>
+            </circle>
+            <circle cx="38" cy="0" r="3" fill="#adf8f4">
+                <animateTransform attributeName="transform" type="translate" values="0 112;0 -12" keyTimes="0;1" dur="3.125s" begin="-1.8125s" repeatCount="indefinite"></animateTransform>
+            </circle>
+            <circle cx="18" cy="0" r="2" fill="#adf8f4">
+                <animateTransform attributeName="transform" type="translate" values="0 136;0 -36" keyTimes="0;1" dur="3.125s" begin="-1.53125s" repeatCount="indefinite"></animateTransform>
+            </circle>
+            <circle cx="58" cy="0" r="3" fill="#adf8f4">
+                <animateTransform attributeName="transform" type="translate" values="0 141;0 -41" keyTimes="0;1" dur="3.125s" begin="-2.6875s" repeatCount="indefinite"></animateTransform>
+            </circle>
+            <circle cx="83" cy="0" r="4" fill="#adf8f4">
+                <animateTransform attributeName="transform" type="translate" values="0 137;0 -37" keyTimes="0;1" dur="3.125s" begin="-0.28125s" repeatCount="indefinite"></animateTransform>
+            </circle>
+            <circle cx="47" cy="0" r="2" fill="#adf8f4">
+                <animateTransform attributeName="transform" type="translate" values="0 146;0 -46" keyTimes="0;1" dur="3.125s" begin="-0.71875s" repeatCount="indefinite"></animateTransform>
+            </circle>
+            <circle cx="1" cy="0" r="3" fill="#adf8f4">
+                <animateTransform attributeName="transform" type="translate" values="0 128;0 -28" keyTimes="0;1" dur="3.125s" begin="-0.84375s" repeatCount="indefinite"></animateTransform>
+            </circle>
+            <circle cx="51" cy="0" r="3" fill="#adf8f4">
+                <animateTransform attributeName="transform" type="translate" values="0 113;0 -13" keyTimes="0;1" dur="3.125s" begin="-0.46875s" repeatCount="indefinite"></animateTransform>
+            </circle>
+            <circle cx="46" cy="0" r="3" fill="#adf8f4">
+                <animateTransform attributeName="transform" type="translate" values="0 126;0 -26" keyTimes="0;1" dur="3.125s" begin="-0.71875s" repeatCount="indefinite"></animateTransform>
+            </circle>
+            <circle cx="94" cy="0" r="2" fill="#adf8f4">
+                <animateTransform attributeName="transform" type="translate" values="0 110;0 -10" keyTimes="0;1" dur="3.125s" begin="-0.875s" repeatCount="indefinite"></animateTransform>
+            </circle>
+            <circle cx="11" cy="0" r="3" fill="#adf8f4">
+                <animateTransform attributeName="transform" type="translate" values="0 107;0 -7" keyTimes="0;1" dur="3.125s" begin="-2.9375s" repeatCount="indefinite"></animateTransform>
+            </circle>
+            <circle cx="58" cy="0" r="4" fill="#adf8f4">
+                <animateTransform attributeName="transform" type="translate" values="0 136;0 -36" keyTimes="0;1" dur="3.125s" begin="-0.34375s" repeatCount="indefinite"></animateTransform>
+            </circle>
+            <circle cx="18" cy="0" r="2" fill="#adf8f4">
+                <animateTransform attributeName="transform" type="translate" values="0 119;0 -19" keyTimes="0;1" dur="3.125s" begin="-0.9375s" repeatCount="indefinite"></animateTransform>
+            </circle>
+            <circle cx="69" cy="0" r="3" fill="#adf8f4">
+                <animateTransform attributeName="transform" type="translate" values="0 136;0 -36" keyTimes="0;1" dur="3.125s" begin="-1.625s" repeatCount="indefinite"></animateTransform>
+            </circle>
+            <circle cx="73" cy="0" r="3" fill="#adf8f4">
+                <animateTransform attributeName="transform" type="translate" values="0 123;0 -23" keyTimes="0;1" dur="3.125s" begin="-1.125s" repeatCount="indefinite"></animateTransform>
+            </circle>
+            <circle cx="15" cy="0" r="4" fill="#adf8f4">
+                <animateTransform attributeName="transform" type="translate" values="0 133;0 -33" keyTimes="0;1" dur="3.125s" begin="-0.09375s" repeatCount="indefinite"></animateTransform>
+            </circle>
+            <circle cx="23" cy="0" r="4" fill="#adf8f4">
+                <animateTransform attributeName="transform" type="translate" values="0 114;0 -14" keyTimes="0;1" dur="3.125s" begin="-2.53125s" repeatCount="indefinite"></animateTransform>
+            </circle>
+            <circle cx="87" cy="0" r="2" fill="#adf8f4">
+                <animateTransform attributeName="transform" type="translate" values="0 133;0 -33" keyTimes="0;1" dur="3.125s" begin="-1.78125s" repeatCount="indefinite"></animateTransform>
+            </circle>
+            <circle cx="89" cy="0" r="2" fill="#adf8f4">
+                <animateTransform attributeName="transform" type="translate" values="0 113;0 -13" keyTimes="0;1" dur="3.125s" begin="-1.5s" repeatCount="indefinite"></animateTransform>
+            </circle>
+            <circle cx="31" cy="0" r="4" fill="#adf8f4">
+                <animateTransform attributeName="transform" type="translate" values="0 109;0 -9" keyTimes="0;1" dur="3.125s" begin="-1.75s" repeatCount="indefinite"></animateTransform>
+            </circle>
+            <circle cx="24" cy="0" r="3" fill="#adf8f4">
+                <animateTransform attributeName="transform" type="translate" values="0 128;0 -28" keyTimes="0;1" dur="3.125s" begin="-2.21875s" repeatCount="indefinite"></animateTransform>
+            </circle>
+            <circle cx="5" cy="0" r="4" fill="#adf8f4">
+                <animateTransform attributeName="transform" type="translate" values="0 108;0 -8" keyTimes="0;1" dur="3.125s" begin="-2.03125s" repeatCount="indefinite"></animateTransform>
+            </circle>
+            <circle cx="58" cy="0" r="3" fill="#adf8f4">
+                <animateTransform attributeName="transform" type="translate" values="0 105;0 -5" keyTimes="0;1" dur="3.125s" begin="-1.46875s" repeatCount="indefinite"></animateTransform>
+            </circle>
+            <circle cx="65" cy="0" r="2" fill="#adf8f4">
+                <animateTransform attributeName="transform" type="translate" values="0 105;0 -5" keyTimes="0;1" dur="3.125s" begin="-1.6875s" repeatCount="indefinite"></animateTransform>
+            </circle>
+            <circle cx="95" cy="0" r="3" fill="#adf8f4">
+                <animateTransform attributeName="transform" type="translate" values="0 137;0 -37" keyTimes="0;1" dur="3.125s" begin="-2.125s" repeatCount="indefinite"></animateTransform>
+            </circle>
+            <circle cx="1" cy="0" r="3" fill="#adf8f4">
+                <animateTransform attributeName="transform" type="translate" values="0 109;0 -9" keyTimes="0;1" dur="3.125s" begin="-2.0625s" repeatCount="indefinite"></animateTransform>
+            </circle>
+            <circle cx="22" cy="0" r="4" fill="#adf8f4">
+                <animateTransform attributeName="transform" type="translate" values="0 151;0 -51" keyTimes="0;1" dur="3.125s" begin="-1.375s" repeatCount="indefinite"></animateTransform>
+            </circle>
+            <circle cx="47" cy="0" r="4" fill="#adf8f4">
+                <animateTransform attributeName="transform" type="translate" values="0 135;0 -35" keyTimes="0;1" dur="3.125s" begin="-1.3125s" repeatCount="indefinite"></animateTransform>
+            </circle>
+            <circle cx="6" cy="0" r="3" fill="#adf8f4">
+                <animateTransform attributeName="transform" type="translate" values="0 134;0 -34" keyTimes="0;1" dur="3.125s" begin="-2.90625s" repeatCount="indefinite"></animateTransform>
+            </circle>
+            <circle cx="82" cy="0" r="4" fill="#adf8f4">
+                <animateTransform attributeName="transform" type="translate" values="0 151;0 -51" keyTimes="0;1" dur="3.125s" begin="-2.5s" repeatCount="indefinite"></animateTransform>
+            </circle>
+            <circle cx="11" cy="0" r="4" fill="#adf8f4">
+                <animateTransform attributeName="transform" type="translate" values="0 150;0 -50" keyTimes="0;1" dur="3.125s" begin="-1.5s" repeatCount="indefinite"></animateTransform>
+            </circle>
+            <circle cx="73" cy="0" r="2" fill="#adf8f4">
+                <animateTransform attributeName="transform" type="translate" values="0 132;0 -32" keyTimes="0;1" dur="3.125s" begin="-0.90625s" repeatCount="indefinite"></animateTransform>
+            </circle>
+            <circle cx="8" cy="0" r="3" fill="#adf8f4">
+                <animateTransform attributeName="transform" type="translate" values="0 143;0 -43" keyTimes="0;1" dur="3.125s" begin="-1.09375s" repeatCount="indefinite"></animateTransform>
+            </circle>
+            <circle cx="92" cy="0" r="4" fill="#adf8f4">
+                <animateTransform attributeName="transform" type="translate" values="0 112;0 -12" keyTimes="0;1" dur="3.125s" begin="-0.5s" repeatCount="indefinite"></animateTransform>
+            </circle>
+            <circle cx="41" cy="0" r="2" fill="#adf8f4">
+                <animateTransform attributeName="transform" type="translate" values="0 118;0 -18" keyTimes="0;1" dur="3.125s" begin="-3s" repeatCount="indefinite"></animateTransform>
+            </circle>
+            <circle cx="31" cy="0" r="4" fill="#adf8f4">
+                <animateTransform attributeName="transform" type="translate" values="0 122;0 -22" keyTimes="0;1" dur="3.125s" begin="-0.65625s" repeatCount="indefinite"></animateTransform>
+            </circle>
+            <circle cx="13" cy="0" r="2" fill="#adf8f4">
+                <animateTransform attributeName="transform" type="translate" values="0 130;0 -30" keyTimes="0;1" dur="3.125s" begin="-1.09375s" repeatCount="indefinite"></animateTransform>
+            </circle>
+            <circle cx="68" cy="0" r="2" fill="#adf8f4">
+                <animateTransform attributeName="transform" type="translate" values="0 116;0 -16" keyTimes="0;1" dur="3.125s" begin="-1.625s" repeatCount="indefinite"></animateTransform>
+            </circle>
+        </pattern>
+    </defs>
+    <path fill="url(#ldio-nnadl3hzcgm-pattern)" clip-path="url(#ldio-nnadl3hzcgm-cp)" d="M59,37.3V18.9c3-0.8,5.1-3.6,5.1-6.8C64.1,8.2,61,5,57.1,5H42.9c-3.9,0-7.1,3.2-7.1,7.1c0,3.2,2.2,6,5.1,6.8v18.4c-11.9,3.8-20.6,15-20.6,28.2C20.4,81.8,33.7,95,50,95s29.6-13.2,29.6-29.6C79.6,52.2,70.9,41.1,59,37.3z"></path>
+    <path fill="none" stroke="#218d87" stroke-width="5" d="M59,37.3V18.9c3-0.8,5.1-3.6,5.1-6.8C64.1,8.2,61,5,57.1,5H42.9c-3.9,0-7.1,3.2-7.1,7.1c0,3.2,2.2,6,5.1,6.8v18.4c-11.9,3.8-20.6,15-20.6,28.2C20.4,81.8,33.7,95,50,95s29.6-13.2,29.6-29.6C79.6,52.2,70.9,41.1,59,37.3z"></path>
+
+</svg>

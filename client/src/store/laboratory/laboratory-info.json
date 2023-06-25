@@ -1,0 +1,27 @@
+[
+  {
+    "name": "biochemistry laboratory",
+    "about": "A specialized scientific facility where biochemical tests and analyses are conducted to study and understand the chemical processes and substances involved in living organisms. Biochemistry combines principles of biology and chemistry to investigate the structure, function, and interactions of molecules within biological systems.",
+    "sample": ["Blood", "Urine", "Other body fluids"]
+  },
+  {
+    "name": "hematology laboratory",
+    "about": "A specialized medical laboratory that focuses on the study and analysis of blood and blood-related disorders. Hematology is a branch of medicine that deals with the diagnosis, treatment, and prevention of diseases and conditions related to blood and its components, including red blood cells, white blood cells, platelets, and plasma. Hematology laboratories play a crucial role in supporting healthcare providers in diagnosing and managing a wide range of conditions related to the blood and hematopoietic system.",
+    "sample": ["Blood"]
+  },
+  {
+    "name": "elisa laboratory",
+    "about": "An ELISA (Enzyme-Linked Immunosorbent Assay) laboratory is a specialized facility where ELISA tests are conducted for the detection and quantification of specific proteins or antibodies in biological samples. ELISA is a widely used and highly sensitive laboratory technique that utilizes the interaction between antigens and antibodies to identify and measure target molecules.",
+    "sample": ["Blood", "Urine", "Serum", "Plasma", "Other body fluids"]
+  },
+  {
+    "name": "hormon laboratory",
+    "about": "A hormone laboratory, also known as an endocrinology laboratory, is a specialized facility that focuses on the analysis and measurement of hormones in biological samples. Hormones are chemical messengers produced by various glands and organs in the body that regulate and coordinate numerous physiological processes. In a hormone laboratory, scientists and technicians perform tests to measure hormone levels in blood, urine, saliva, or other body fluids. These tests provide valuable information about hormonal balance, endocrine disorders, and overall health. The laboratory utilizes techniques and assays specifically designed for hormone analysis.",
+    "sample": ["Blood", "Urine", "Saliva (Sometimes)"]
+  },
+  {
+    "name": "hba1c laboratory",
+    "about": "An HbA1c (glycated hemoglobin) laboratory is a specialized facility that performs tests to measure the level of HbA1c in a person's blood. HbA1c is a form of hemoglobin that is chemically linked with glucose. The measurement of HbA1c is commonly used as a diagnostic and monitoring tool for diabetes mellitus. In an HbA1c laboratory, a blood sample is collected, and the level of HbA1c is determined through a laboratory assay. The HbA1c test reflects the average blood glucose levels over a period of approximately three months, providing an indication of long-term glycemic control. The higher the HbA1c level, the poorer the overall control of blood sugar levels.",
+    "sample": ["Blood"]
+  }
+]

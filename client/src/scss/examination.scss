@@ -1,0 +1,206 @@
+@import "./general.scss";
+
+.examination {
+  padding: 1rem 0;
+  margin: 0 5%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  &__visualization {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  &__view-options {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+
+    button {
+      @include button(white, $color-primary);
+    }
+  }
+
+  &__view {
+    height: 17rem;
+    width: 100%;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    color: $color-secondary;
+
+    h3 {
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+
+    li,
+    p {
+      font-size: 1rem;
+      line-height: 1.5rem;
+    }
+
+    li {
+      margin-left: 1rem;
+    }
+  }
+
+  &__warning {
+    color: $warning;
+    padding: 1rem 0.7rem;
+    border: 2px solid $warning;
+    border-radius: 0.2rem;
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 3rem;
+  }
+
+  @include responsive($xl) {
+    padding-top: 4rem;
+
+    &__visualization {
+      width: 45%;
+      height: 80vh;
+      justify-content: start;
+      align-items: start;
+      position: fixed;
+      gap: 2rem;
+    }
+
+    &__view-options {
+      button {
+        font-size: 1.2rem;
+      }
+    }
+
+    &__infoContainer {
+      width: 45%;
+      margin-left: 55%;
+    }
+
+    &__info {
+      h3 {
+        font-size: 1.5rem;
+      }
+
+      li,
+      p {
+        font-size: 1.2rem;
+        line-height: 1.7rem;
+      }
+    }
+
+    &__warning {
+      font-size: 1.2rem;
+    }
+  }
+}
+
+.dark {
+  .examination {
+    &__view-options {
+      button {
+        @include button($color-secondary, white);
+      }
+    }
+
+    &__view {
+      height: 17rem;
+      width: 100%;
+    }
+
+    &__info {
+      color: white;
+    }
+
+    &__warning {
+      color: $warning-dark;
+      border-color: $warning-dark;
+    }
+  }
+
+  .table {
+    border-color: white;
+
+    .table__head {
+      color: $color-secondary;
+      background-color: white;
+
+      th {
+        border-right-color: $color-secondary;
+
+        .icon {
+          color: $color-secondary;
+        }
+      }
+    }
+
+    .table__body {
+      color: white;
+
+      td {
+        border-color: white;
+      }
+    }
+  }
+}
+
+.table {
+  border: 1px solid $color-primary;
+  text-align: center;
+  width: 100%;
+  border-collapse: collapse;
+  overflow-x: scroll;
+
+  .table__head {
+    color: white;
+    background-color: $color-primary;
+
+    th {
+      padding: 0.5rem 0.8rem;
+      border-right: 1px solid white;
+      font-weight: 100;
+
+      div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.2rem;
+      }
+
+      &:last-of-type {
+        border-right: none;
+      }
+
+      .icon {
+        color: white;
+        transform: rotate(90deg);
+        font-size: 1rem;
+      }
+    }
+  }
+
+  .table__body {
+    font-size: 0.8rem;
+    color: $color-secondary;
+
+    td {
+      padding: 0.5rem 0.2rem;
+      border: 1px solid $color-primary;
+    }
+  }
+
+  @include responsive($xl) {
+    font-size: 1.2rem;
+
+    .table__body {
+      font-size: 1rem;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+# Dependencies
+/node_modules
+
+# Environment variables
+.env
+
+# Editor specific files
+.vscode/
+
+# Compiled JavaScript
+/dist
+
+# JSON files
+hematology.json
+biochemistry.json
+hormon.json
+elisa.json
+hba1c.json
+file.txt

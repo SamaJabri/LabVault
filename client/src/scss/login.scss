@@ -1,0 +1,144 @@
+@import "./general.scss";
+
+.welcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  &--sign-up {
+    height: auto;
+  }
+
+  @include responsive($xl) {
+    &--sign-up {
+      height: 100vh;
+    }
+  }
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4rem;
+  padding: 2rem 0;
+  width: 100%;
+
+  &__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    color: $color-primary;
+
+    img {
+      width: 12rem;
+      height: 3.5rem;
+    }
+
+    p {
+      display: none;
+      font-size: 1.5rem;
+      color: $color-secondary;
+      text-align: center;
+    }
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    width: 100%;
+
+    &-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.8rem;
+      width: 92%;
+    }
+
+    &__field {
+      width: 90%;
+    }
+
+    &__button {
+      background-color: $color-primary;
+      border: none;
+      border-radius: 0.2rem;
+      padding: 0.8rem 1rem;
+      font-size: 1.3rem;
+      width: 50%;
+      color: white;
+      margin-top: 3rem;
+      transition: all 0.3s;
+
+      &:hover {
+        cursor: pointer;
+      }
+
+      &:disabled {
+        background-color: $color-primary-disabled;
+        color: $color-text-disabled;
+      }
+
+      &--sign-up {
+        margin-top: 1rem;
+      }
+    }
+  }
+
+  &__password {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+    p {
+      text-align: left;
+      width: 89%;
+      margin-top: 1rem;
+    }
+  }
+
+  p {
+    color: $color-primary;
+  }
+
+  @include responsive($xl) {
+    flex-direction: row;
+
+    &__header {
+      height: 100%;
+      border-right: 1px solid $color-primary;
+      padding: 0 6rem;
+
+      img {
+        width: 8rem;
+        height: 8rem;
+        width: 15rem;
+        height: 5rem;
+      }
+
+      h2 {
+        font-size: 2rem;
+      }
+
+      p {
+        display: block;
+        margin-top: 2rem;
+        line-height: 1.4;
+      }
+    }
+
+    &__form {
+      &-container {
+      }
+    }
+  }
+}

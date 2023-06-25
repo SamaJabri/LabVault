@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=M+PLUS+Rounded+1c:wght@400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}
+
+.ternary {
+  color: #deb992;
+}
+
+.warning-message {
+  color: #8d2121;
+  margin-top: -1rem;
+  margin-bottom: 0.5rem;
+  background-color: rgba(141, 33, 33, 0.2);
+  border-radius: 0.2rem;
+  border: none;
+  padding: 0.8rem 1.3rem;
+  text-align: center;
+}
+
+#active-button {
+  padding: 0.3rem 0.9rem;
+  color: white;
+  background-color: #218d87;
+  border: 1px solid white;
+  border-radius: 0.14rem;
+  outline: none;
+}
+#active-button:hover {
+  cursor: pointer;
+}
+
+.dark #active-button {
+  padding: 0.3rem 0.9rem;
+  color: #0e3b39;
+  background-color: white;
+  border: 1px solid #0e3b39;
+  border-radius: 0.14rem;
+  outline: none;
+}
+.dark #active-button:hover {
+  cursor: pointer;
+}
+
+.welcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.welcome--sign-up {
+  height: auto;
+}
+@media (min-width: 1200px) {
+  .welcome--sign-up {
+    height: 100vh;
+  }
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4rem;
+  padding: 2rem 0;
+  width: 100%;
+}
+.login__header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  color: #218d87;
+}
+.login__header img {
+  width: 12rem;
+  height: 3.5rem;
+}
+.login__header p {
+  display: none;
+  font-size: 1.5rem;
+  color: #0e3b39;
+  text-align: center;
+}
+.login__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+  width: 100%;
+}
+.login__form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+  width: 92%;
+}
+.login__form__field {
+  width: 90%;
+}
+.login__form__button {
+  background-color: #218d87;
+  border: none;
+  border-radius: 0.2rem;
+  padding: 0.8rem 1rem;
+  font-size: 1.3rem;
+  width: 50%;
+  color: white;
+  margin-top: 3rem;
+  transition: all 0.3s;
+}
+.login__form__button:hover {
+  cursor: pointer;
+}
+.login__form__button:disabled {
+  background-color: rgba(33, 141, 135, 0.12);
+  color: rgba(0, 0, 0, 0.26);
+}
+.login__form__button--sign-up {
+  margin-top: 1rem;
+}
+.login__password {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.login__password p {
+  text-align: left;
+  width: 89%;
+  margin-top: 1rem;
+}
+.login p {
+  color: #218d87;
+}
+@media (min-width: 1200px) {
+  .login {
+    flex-direction: row;
+  }
+  .login__header {
+    height: 100%;
+    border-right: 1px solid #218d87;
+    padding: 0 6rem;
+  }
+  .login__header img {
+    width: 8rem;
+    height: 8rem;
+    width: 15rem;
+    height: 5rem;
+  }
+  .login__header h2 {
+    font-size: 2rem;
+  }
+  .login__header p {
+    display: block;
+    margin-top: 2rem;
+    line-height: 1.4;
+  }
+}
+
+/*# sourceMappingURL=login.css.map */

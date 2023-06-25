@@ -1,0 +1,773 @@
+[
+  {
+    "name": "mcv",
+    "about": [
+      "MCV stands for mean corpuscular volume. An MCV blood test measures the average size of your red blood cells. Red blood cells carry oxygen from your lungs to every cell in your body. Your cells need oxygen to grow, reproduce, and stay healthy. If your red blood cells are too small or too large, it could be a sign of a blood disorder such as anemia, a lack of certain vitamins, or other medical conditions"
+    ],
+    "low": [
+      "Certain types of anemia, including iron-deficiency anemia, the most common type.",
+      "Thalassemia, an uncommon genetic condition"
+    ],
+    "high": [
+      {
+        "Pernicious anemia, which may be caused by:": [
+          "A lack of vitamin B12",
+          "A disease that affects your body's ability to use vitamin B12, such as certain autoimmune diseases, celiac disease, or Crohn's disease"
+        ]
+      },
+      "Anemia caused by a lac of folic acid",
+      "Liver disease"
+    ]
+  },
+  {
+    "name": "rbc",
+    "about": [
+      "A red blood cell (RBC) count measures the number of red blood cells, also known as erythrocytes, in your blood. Red blood cells carry oxygen from your lungs to every cell in your body. Your cells need oxygen to grow, reproduce, and stay healthy. An RBC count that is higher or lower than normal is often the first sign of an illness. So the test may allow you to get treatment even before you have symptoms."
+    ],
+    "low": [
+      "Anemia",
+      "Leukemia, a type of blood cancer",
+      "Malnutrition, a condition in which your body does not get the calories, vitamins, and/or minerals needed for good health",
+      "Multiple myeloma, a cancer of the bone marrow",
+      "Kidney failure"
+    ],
+    "high": [
+      "Dehydration",
+      "Heart disease",
+      "Polycythemia vera, a bone marrow disease that causes too many red blood cells to be made",
+      "Scarring of the lungs, often due to cigarette smoking",
+      "Lung disease",
+      "Kidney cancer"
+    ]
+  },
+  {
+    "name": "rdw",
+    "about": [
+      "A red cell distribution width (RDW) test measures the differences in the volume and size of your red blood cells (erythrocytes). Red blood cells carry oxygen from your lungs to every cell in your body. Your cells need oxygen to grow, make new cells, and stay healthy."
+    ],
+    "low": [
+      "Iron deficiency",
+      "Different types of anemia",
+      "Thalassemia",
+      "Sickle cell anemia"
+    ],
+    "high": [
+      "Chronic liver disease",
+      "Heart disease",
+      "Diabetes",
+      "Kidney disease",
+      "Cancer, especially colorectal cancer"
+    ]
+  },
+  {
+    "name": "Alanin Aminotransferaz (ALT)",
+    "about": [
+      "Alanine transaminase (ALT), also known as alanine aminotransferase, is an enzyme that’s mainly found in your liver, though it exists in other parts of your body. An enzyme is a type of protein in a cell that acts as a catalyst and allows certain bodily processes to happen. There are thousands of enzymes throughout your body that have important functions."
+    ],
+    "low": [
+      "Having a lower than normal ALT result is uncommon and usually isn’t a cause for concern. . However, a lower than normal ALT level could indicate a vitamin B6 deficiency or chronic kidney disease."
+    ],
+    "high": [
+      "Liver damage from hepatitis",
+      "Infection",
+      "Cirrhosis",
+      "Liver cancer",
+      "Other liver diseases"
+    ]
+  },
+  {
+    "name": "Albumin",
+    "about": [
+      "An albumin blood test measures the amount of albumin in your blood. Low albumin levels can be a sign of liver or kidney disease or another medical condition. High levels may be a sign of dehydration. Albumin is a protein made by your liver. Albumin enters your bloodstream and helps keep fluid from leaking out of your blood vessels into other tissues. It is also carries hormones, vitamins, and enzymes throughout your body. Without enough albumin, fluid can leak out of your blood and build up in your lungs, abdomen (belly), or other parts of your body."
+    ],
+    "low": [
+      "Liver disease, including severe cirrhosis, hepatitis, and fatty liver disease",
+      "Kidney disease",
+      "Malnutrition",
+      "Infection",
+      "Digestive diseases that involve problems using protein from food, such as Crohn's disease and malabsorption disorders",
+      "Burns over a large area of your body",
+      "Thyroid disease"
+    ],
+    "high": [
+      "May be a sign of dehydration, which may be caused by severe diarrhea or other conditions."
+    ]
+  },
+  {
+    "name": "Alkalen Fosfataz (ALP)",
+    "about": [
+      "An alkaline phosphatase (ALP) test measures the amount of ALP in your blood. ALP is an enzyme found in many parts of your body. Each part of your body produces a different type of ALP. Most ALP is found in your liver, bones, kidneys, and digestive system. Abnormal levels of ALP in your blood may be a sign of a wide range of health conditions, including liver disease, bone disorders, and chronic kidney disease. But an alkaline phosphatase test alone can't identify the source of ALP in your blood, so other tests are usually needed to make a diagnosis."
+    ],
+    "low": [
+      "Lack of zinc",
+      "Malnutrition",
+      "Pernicious anemia",
+      "Thyroid disease",
+      "Wilson disease",
+      "Hypophosphatasia, a rare genetic disease that affects bones and teeth"
+    ],
+    "high": [
+      {
+        "From liver": [
+          "Blockages in the bile ducts",
+          "Cirrhosis",
+          "Hepatitis",
+          "Mononucleosis, which can sometimes cause swelling in the liver"
+        ]
+      },
+      {
+        "Not from liver": [
+          "Might be Paget's disease of bone, a disease that makes your bones unusually large and weak, causing them to break more easily."
+        ]
+      },
+      {
+        "Moderately high": [
+          "Hodgkin lymphoma",
+          "Heart failure",
+          "Certain infections"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Amilaz",
+    "about": [
+      "An amylase test measures the amount of amylase in your blood or urine (pee). Amylase is an enzyme, or special protein, that helps you digest carbohydrates. Most of the amylase in your body is made by your pancreas and salivary glands. A small amount of amylase in your blood and urine is normal. But having too much or too little may be a sign of a disorder of the pancreas or salivary glands, or another medical condition."
+    ],
+    "low": [
+      "Chronic pancreatitis causing permanent damage to the cells that make amylase",
+      "Kidney disease",
+      "Cystic fibrosis",
+      "Liver disease",
+      "Pre-eclampsia (a type of high blood pressure in pregnancy)"
+    ],
+    "high": [
+      {
+        "In blood or urine": [
+          "Acute pancreatitis",
+          "A blockage in a duct in the pancreas",
+          "Pancreatic cancer or benign tumor"
+        ]
+      },
+      {
+        "In peritoneal fluid": [
+          "Acute pancreatitis",
+          "A blocked intestine",
+          "Lack of blood flow to the intestines"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Bilirubin (direkt)",
+    "about": [
+      "A bilirubin blood test measures the levels of bilirubin in your blood. Bilirubin is a yellowish substance made during your body's normal process of breaking down old red blood cells. Bilirubin is found in bile, a fluid your liver makes that helps you digest food. If your liver is healthy, it will remove most of the bilirubin from your body. If your liver is damaged, bilirubin can leak out of your liver and into your blood. When too much bilirubin gets into the bloodstream, it can cause jaundice, a condition that causes your skin and eyes to turn yellow. Signs of jaundice, along with a bilirubin blood test, can help your health care provider find out if you have liver disease. Direct bilirubin is the bilirubin once it reaches the liver and undergoes a chemical change. It moves to the intestines before being removed through your stool."
+    ],
+    "low": ["Liver damage or disease"],
+    "high": [
+      {
+        "In Urine": [
+          "A liver disease, such as hepatitis or cirrhosis",
+          "A blockage in your bile ducts, the small tubes that carry bile out of your liver"
+        ]
+      },
+      {
+        "In blood": [
+          "Other problems",
+          "Don't always mean you have a medical condition that needs treatment. Other things may cause higher than normal bilirubin levels, such as certain medicines and foods or strenuous exercise."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Bilirubin (total)",
+    "about": [
+      "A bilirubin blood test measures the levels of bilirubin in your blood. Bilirubin is a yellowish substance made during your body's normal process of breaking down old red blood cells. Bilirubin is found in bile, a fluid your liver makes that helps you digest food. If your liver is healthy, it will remove most of the bilirubin from your body. If your liver is damaged, bilirubin can leak out of your liver and into your blood. When too much bilirubin gets into the bloodstream, it can cause jaundice, a condition that causes your skin and eyes to turn yellow. Signs of jaundice, along with a bilirubin blood test, can help your health care provider find out if you have liver disease. Direct bilirubin is the bilirubin once it reaches the liver and undergoes a chemical change. It moves to the intestines before being removed through your stool. Indirect bilirubin is the one that is created from red blood cell breakdown. It travels in the blood to the liver. Total bilirubin is a combination of direct and indirect bilirubin."
+    ],
+    "low": ["Liver damage or disease"],
+    "high": [
+      {
+        "In Urine": [
+          "A liver disease, such as hepatitis or cirrhosis",
+          "A blockage in your bile ducts, the small tubes that carry bile out of your liver"
+        ]
+      },
+      {
+        "In blood": [
+          "Other problems",
+          "Don't always mean you have a medical condition that needs treatment. Other things may cause higher than normal bilirubin levels, such as certain medicines and foods or strenuous exercise."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "C Reaktif Protein (CRP)",
+    "about": [
+      "A c-reactive protein test measures the level of c-reactive protein (CRP) in a sample of your blood. CRP is a protein that your liver makes. Normally, you have low levels of c-reactive protein in your blood. Your liver releases more CRP into your bloodstream if you have inflammation in your body. High levels of CRP may mean you have a serious health condition that causes inflammation. Inflammation is your body's way of protecting your tissues and helping them heal from an injury, infection, or other disease. Inflammation can be acute (sudden) and temporary. This type of inflammation is usually helpful. For example, if you cut your skin, it may turn red, swell, and hurt for a few days. Those are signs of inflammation. Inflammation can also happen inside your body. A CRP test can show whether you have inflammation in your body and how much. But the test can't show what's causing the inflammation or which part of your body is inflamed."
+    ],
+    "low": [
+      "There’s no such thing as a lower than normal CRP level. If you previously had a high CRP result and now have a lower result, it likely means your inflammation is decreasing and/or your treatment for the inflammation is working."
+    ],
+    "high": ["Inflammation"]
+  },
+  {
+    "name": "Demir (serum)",
+    "about": [
+      "Demir is Turkish for iron. Iron tests measure different substances in the blood to check iron levels in your body. Iron is a mineral that's essential for making red blood cells. Red blood cells carry oxygen from your lungs to the rest of your body. Iron is also important for healthy muscles, bone marrow, and organ function. Iron levels that are too low or too high can cause serious health problems. Serum iron test measures the amount of iron in the blood"
+    ],
+    "low": [
+      "Iron deficiency anemia, a common type of anemia. Anemia is a disorder in which your body doesn't make enough red blood cells.",
+      "Another type of anemia",
+      "Thalassemia, an inherited blood disorder that causes the body to make fewer than normal healthy red blood cells",
+      "Iron levels may also be lower for women during their menstrual cycles"
+    ],
+    "high": [
+      "Hemochromatosis, a disorder that causes too much iron to build up in the body",
+      "Lead poisoning",
+      "Liver disease"
+    ]
+  },
+  {
+    "name": "EOS#",
+    "about": [
+      "EOS stands for Eosinophils which are a kind of white blood cell that helps fight disease. The exact role of eosinophils in your body isn't clear, but they're usually linked with allergic diseases and certain infections. They're made in your bone marrow and then travel to different tissues. Eosinophils do two important things in your immune system: curb infections and boost inflammation, which can help you fight off a disease."
+    ],
+    "low": [
+      "You’ve had too much alcohol",
+      "Your body is making too much of certain steroids, like cortisol"
+    ],
+    "high": [
+      "Acute hypereosinophilic syndrome, a rare condition that’s similar to leukemia and can be life-threatening",
+      "An allergic disorder like asthma or hay fever",
+      "Autoimmune conditions",
+      "An infection caused by a parasite or fungus",
+      "A reaction to certain medications",
+      "Asthma",
+      "Early stages of Cushing’s disease, a rare condition that can happen if you have too much of a hormone called cortisol in your blood",
+      "Eczema (itchy, inflamed skin)",
+      "Leukemia and other blood disorders"
+    ]
+  },
+  {
+    "name": "EOS%",
+    "about": [
+      "EOS stands for Eosinophils which are a kind of white blood cell that helps fight disease. The exact role of eosinophils in your body isn't clear, but they're usually linked with allergic diseases and certain infections. They're made in your bone marrow and then travel to different tissues. Eosinophils do two important things in your immune system: curb infections and boost inflammation, which can help you fight off a disease."
+    ],
+    "low": [
+      "You’ve had too much alcohol",
+      "Your body is making too much of certain steroids, like cortisol"
+    ],
+    "high": [
+      "Acute hypereosinophilic syndrome, a rare condition that’s similar to leukemia and can be life-threatening",
+      "An allergic disorder like asthma or hay fever",
+      "Autoimmune conditions",
+      "An infection caused by a parasite or fungus",
+      "A reaction to certain medications",
+      "Asthma",
+      "Early stages of Cushing’s disease, a rare condition that can happen if you have too much of a hormone called cortisol in your blood",
+      "Eczema (itchy, inflamed skin)",
+      "Leukemia and other blood disorders"
+    ]
+  },
+  {
+    "name": "Ferritin",
+    "about": [
+      "A ferritin blood test measures the level of ferritin in your blood. Ferritin is a protein that stores iron inside your cells. You need iron to make healthy red blood cells. Red blood cells carry oxygen from your lungs to the rest of your body. Iron is also important for healthy muscles, bone marrow, and organs, including brain development in children. Too little or too much iron in your body can cause serious health problems if not treated. A ferritin blood test can show how much iron you have stored in your body."
+    ],
+    "low": [
+      "Iron deficiency anemia which is a common type of anemia, in which your body doesn't make enough red blood cells. Without treatment it can lead to heart problems, infections, slow growth and brain development in children, and other health issues.",
+      "Another condition related to low iron levels."
+    ],
+    "high": [
+      "Liver disease",
+      "Alcohol use disorder",
+      "Hemochromatosis",
+      "Hyperthyroidism"
+    ]
+  },
+  {
+    "name": "Fosfor (P)",
+    "about": [
+      "Fosfor is Turkish for phosphate. A phosphate in blood test measures the amount of phosphate in your blood. Phosphate is an electrically charged particle that contains the mineral phosphorus. Phosphorus works together with the mineral calcium to build strong bones and teeth. Normally, the kidneys filter and remove excess phosphate from the blood. If phosphate levels in your blood are too high or too low, it can be a sign of kidney disease or other serious disorder."
+    ],
+    "low": [
+      "Hyperparathyroidism, a condition in which your parathyroid gland produces too much parathyroid hormone",
+      "Malnutrition",
+      "Alcoholism",
+      "Osteomalacia, condition that causes bones to become soft and deformed. It's caused by a vitamin D deficiency. When this condition happens in children, it's known as rickets."
+    ],
+    "high": [
+      "Kidney disease",
+      "Hypoparathyroidism, a condition in which your parathyroid gland doesn't make enough parathyroid hormone",
+      "Too much vitamin D in your body",
+      "Too much phosphate in your diet",
+      "Diabetic ketoacidosis, a life-threatening complication of diabetes"
+    ]
+  },
+  {
+    "name": "Glike hemoglobin (Hb A1c)",
+    "about": [
+      "A hemoglobin A1C (HbA1C) test is a blood test that shows what your average blood sugar (glucose) level was over the past two to three months. Glucose is a type of sugar in your blood that comes from the foods you eat. Your cells use glucose for energy. A hormone called insulin helps glucose get into your cells. If you have diabetes your body doesn't make enough insulin, or your cells don't use it well. As a result, glucose can't get into your cells, so your blood sugar levels increase. Glucose in your blood sticks to hemoglobin, a protein in your red blood cells. As your blood glucose levels increase, more of your hemoglobin will be coated with glucose. An A1C test measures the percentage of your red blood cells that have glucose-coated hemoglobin. An A1C test can show your average glucose level for the past three months. High A1C levels are a sign of high blood glucose from diabetes. Diabetes can cause serious health problems, including heart disease, kidney disease, and nerve damage. But with treatment and lifestyle changes, you can control your blood glucose levels."
+    ],
+    "low": ["Normal"],
+    "high": [
+      "Diabetes",
+      "Providers often use more than one test to diagnose diabetes. So, if your test result was higher than normal, you may have another A1C test or a different type of diabetes test, usually either a fasting blood glucose test or an oral glucose tolerance test (OGTT)."
+    ]
+  },
+  {
+    "name": "Glukoz",
+    "about": [
+      "A blood glucose test measures the glucose levels in your blood. Glucose is a type of sugar. It is your body's main source of energy. A hormone called insulin helps move glucose from your bloodstream into your cells. Too much or too little glucose in the blood can be a sign of a serious medical condition. High blood glucose levels (hyperglycemia) may be a sign of diabetes, a disorder that can cause serious, long-term health conditions. High blood sugar may also be caused by other conditions that can affect insulin or glucose levels in your blood, such as problems with your pancreas or adrenal glands. Low blood glucose levels (hypoglycemia) are common among people with type 1 diabetes and people with type 2 diabetes who take certain diabetes medicines. Certain conditions, such as liver disease, may cause low levels of blood glucose in people without diabetes, but this is uncommon. Without treatment, severe low blood sugar can lead to major health problems, including seizures and brain damage."
+    ],
+    "low": [
+      {
+        "Already have diabetes": [
+          "Side effects from certain diabetes medicines",
+          "Not eating enough, especially after taking diabetes medicine",
+          "Being more physically active than usual"
+        ]
+      },
+      {
+        "Don't have diabetes": [
+          "Liver disease",
+          "Kidney disease",
+          "Underactive adrenal, pituitary, or thyroid gland (hypothyroidism)",
+          "Alcohol use disorder (AUD)"
+        ]
+      }
+    ],
+    "high": [
+      "At risk for getting diabetes",
+      "Hyperthyroidism",
+      "Pancreas disorders",
+      "Stress from surgery, very serious illness, or trauma"
+    ]
+  },
+  {
+    "name": "HCT",
+    "about": [
+      "A hematocrit test is a blood test that measures how much of your blood is made up of red blood cells. Red blood cells carry oxygen from your lungs to the rest of your body. The other parts of your blood include white blood cells (to help fight infection), platelets (to help make blood clots to stop bleeding), and a liquid called plasma. Hematocrit levels that are too high or too low can be a sign of a blood disorder, dehydration, or other medical conditions that affect your blood."
+    ],
+    "low": [
+      "Your body doesn't have enough red blood cells (anemia). There are many types of anemia that can be caused by different medical conditions.",
+      {
+        "Your body is making too many white blood cells, which may be caused by": [
+          "Bone marrow disease",
+          "Certain cancers, including leukemia, lymphoma, multiple myeloma, or cancers that spread to the bone marrow from other parts of the body"
+        ]
+      }
+    ],
+    "high": [
+      {
+        "Your body is making too many red blood cells, which may be caused by:": [
+          "Lung disease",
+          "Congenital heart disease",
+          "Heart failure",
+          "Polycythemia"
+        ]
+      },
+      {
+        "Your blood plasma level is too low, which may be caused by:": [
+          "Dehydration, the most common cause of a high hematocrit",
+          "Shock"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "HDL Kolesterol",
+    "about": [
+      "Cholesterol is a waxy, fat-like substance that's found in all the cells in your body. Your liver makes cholesterol, and it is also in some foods, such as meat and dairy products. Your body needs some cholesterol to work properly. But having too much cholesterol in your blood raises your risk of coronary artery disease. HDL stands for high-density lipoproteins. It is sometimes called the 'good' cholesterol because it carries cholesterol from other parts of your body back to your liver. Your liver then removes the cholesterol from your body."
+    ],
+    "low": ["Certain medicines", "Diabetes"],
+    "high": [
+      "With HDL cholesterol, higher numbers are better, because a high HDL level can lower your risk for coronary artery disease and stroke."
+    ]
+  },
+  {
+    "name": "HGB",
+    "about": [
+      "HGB stand for hemoglobin. A hemoglobin test measures the levels of hemoglobin in your blood. Hemoglobin is a protein in your red blood cells that carries oxygen from your lungs to the rest of your body. If your hemoglobin levels are abnormal, it may be a sign that you have a blood disorder."
+    ],
+    "low": [
+      "Different types of anemia",
+      "Thalassemia",
+      "Iron deficiency",
+      "Liver disease",
+      "Cancer and other diseases"
+    ],
+    "high": [
+      "Lung disease",
+      "Heart disease",
+      "Polycythemia vera, a disorder in which your body makes too many red blood cells. It can cause headaches, fatigue, and shortness of breath."
+    ]
+  },
+  {
+    "name": "Kalsiyum (Ca)",
+    "about": [
+      "A calcium blood test measures the amount of calcium in your blood. If there is too much or too little calcium in the blood, it may be a sign of a wide range of medical conditions, such as bone disease, thyroid disease, parathyroid disorders, kidney disease, and other conditions. Calcium is one of the most important minerals in your body. About 1% of the calcium in your body is in your blood. The rest is stored in your bones and teeth. Having the right amount of calcium in your blood is necessary for your nerves, muscles, and heart to work properly. It also helps blood vessels move blood throughout your body and helps release hormones that affect many body functions."
+    ],
+    "low": [
+      "Low blood protein levels, which may be caused by liver disease or malnutrition",
+      "Underactive parathyroid glands (hypoparathyroidism), a condition in which your parathyroid glands produce too little parathyroid hormone",
+      "Too little calcium in your diet",
+      "Too little vitamin D or magnesium",
+      "Pancreatitis",
+      "Kidney disease"
+    ],
+    "high": [
+      "Overactive parathyroid glands (hyperparathyroidism), a condition in which your parathyroid glands produce too much parathyroid hormone",
+      "Certain types of cancer, including cancer that spreads to the bone",
+      "Bone disorders, including Paget's disease of the bone",
+      "Taking too much vitamin D over a long period of time"
+    ]
+  },
+  {
+    "name": "Klor (Cl)",
+    "about": [
+      "A chloride blood test measures the amount of chloride in your blood. Chloride is a type of electrolyte. Electrolytes are electrically charged minerals that help control the amount of fluids and the balance of acids and bases (pH balance) in your body. Chloride is often measured with other electrolytes to diagnose or monitor conditions, such as kidney disease, heart failure, liver disease, and high blood pressure."
+    ],
+    "low": [
+      "Heart failure",
+      "Lung disease",
+      "Addison disease, a condition in which your body's adrenal glands don't produce enough hormones. It can cause a variety of symptoms, including weakness, dizziness, weight loss, and dehydration.",
+      "Metabolic alkalosis, a condition characterized by excess base in the blood. It can cause irritability, muscle twitching, and tingling in the fingers and toes."
+    ],
+    "high": [
+      "Dehydration",
+      "Kidney disease",
+      "Metabolic acidosis, a condition characterized by excess acid in the blood. It can cause nausea, vomiting, and fatigue."
+    ]
+  },
+  {
+    "name": "Kolesterol",
+    "about": [
+      "A cholesterol test is a blood test that measures the amount of cholesterol and certain fats in your blood. Cholesterol is a waxy, fat-like substance that's found in your blood and every cell of your body. You need some cholesterol to keep your cells and organs healthy. Your liver makes all the cholesterol your body needs. But you can also get cholesterol from the foods you eat, especially meat, eggs, poultry, and dairy products. Foods that are high in dietary fat can also make your liver produce more cholesterol."
+    ],
+    "low": [
+      "A rare familial disorder",
+      "Malnutrition",
+      "Malabsorption",
+      "Anemia",
+      "Thyroid issues",
+      "Liver disease",
+      "Certain types of infections (e.g., hepatitis C)",
+      "Severe illness or injury",
+      "Cancer"
+    ],
+    "high": [
+      "Unhealthy eating habits, such as eating lots of bad fats. One type, saturated fat, is found in some meats, dairy products, chocolate, baked goods, and deep-fried and processed foods. Another type, trans fat, is in some fried and processed foods.",
+      "Lack of physical activity, with lots of sitting and little exercise.",
+      "Smoking",
+      "Genetics may also cause people to have high cholesterol. For example, familial hypercholesterolemia (FH) is an inherited form of high cholesterol.",
+      "Other medical conditions and certain medicines"
+    ]
+  },
+  {
+    "name": "Kreatinin",
+    "about": [
+      "This test measures creatinine levels in blood and/or urine. Creatinine is a waste product made by your muscles as part of regular, everyday activity. Normally, your kidneys filter creatinine from your blood and send it out of the body in your urine. If there is a problem with your kidneys, creatinine can build up in the blood and less will be released in urine. If blood and/or urine creatinine levels are not normal, it can be a sign of kidney disease."
+    ],
+    "low": ["Normal"],
+    "high": [
+      {
+        "High levels of creatinine in blood and low levels in urine indicate kidney disease or another condition that affects kidney function. These include:": [
+          "Autoimmune diseases",
+          "Bacterial infection of the kidneys",
+          "Blocked urinary tract",
+          "Heart failure",
+          "Complications of diabetes"
+        ]
+      },
+      {
+        "Abnormal results don't always mean kidney disease. The following conditions can temporarily raise creatinine levels:": [
+          "Pregnancy",
+          "Intense exercise",
+          "A diet high in red meat",
+          "Certain medicines. Some medicines have side effects that raise creatinine levels."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "LDL Kolesterol",
+    "about": [
+      "Cholesterol is a waxy, fat-like substance that's found in all the cells in your body. Your liver makes cholesterol, and it is also in some foods, such as meat and dairy products. Your body needs some cholesterol to work properly. But having too much cholesterol in your blood raises your risk of coronary artery disease. LDL stands for low-density lipoproteins. It is sometimes called the 'bad' cholesterol because a high LDL level leads to a buildup of cholesterol in your arteries."
+    ],
+    "low": [
+      "The risks are rare",
+      {
+        "Although very low levels of LDL cholesterol may be associated with an increased risk of:": [
+          "Cancer",
+          "Hemorrhagic stroke",
+          "Depression",
+          "Anxiety",
+          "Preterm birth and low birth weight if your cholesterol is low while you're pregnant"
+        ]
+      }
+    ],
+    "high": [
+      "Diet. Saturated fat and cholesterol in the food you eat make your LDL level rise",
+      "Weight. Being overweight tends to raise your LDL level, lower your HDL level, and increase your total cholesterol level",
+      "Physical Activity. A lack of physical activity can lead to weight gain, which can raise your LDL level",
+      "Smoking. Cigarette smoking lowers your HDL cholesterol. Since HDL helps to remove LDL from your arteries, if you have less HDL, that can contribute to you having a higher LDL level",
+      "Age and Sex. As women and men get older, their cholesterol levels rise. Before the age of menopause, women have lower total cholesterol levels than men of the same age. After the age of menopause, women's LDL levels tend to rise",
+      "Genetics. Your genes partly determine how much cholesterol your body makes. High cholesterol can run in families. For example, familial hypercholesterolemia (FH) is an inherited form of high blood cholesterol",
+      "Medicines. Certain medicines, including steroids, some blood pressure medicines, and HIV medicines, can raise your LDL level",
+      "Other medical conditions. Diseases such as chronic kidney disease, diabetes, and HIV can cause a higher LDL level",
+      "Race or ethnicity. People from certain racial or ethnic groups may have an increased risk of high blood cholesterol. For example, African Americans typically have higher HDL and LDL cholesterol levels than White Americans. Asian Americans are more likely to have higher LDL levels than other groups"
+    ]
+  },
+  {
+    "name": "LYM#",
+    "about": [
+      "LYM stand for Lymphocytes which are a type of white blood cell. They’re an important part of your immune system. About 20% to 40% of your white blood cells are lymphocytes. Lymphocytes are formed in your bone marrow. Lymphocytes are able to remember antigens, which are foreign substances that provoke your body’s immune reaction. These include bacteria, viruses, and toxins. After an encounter with an antigen, some lymphocytes develop into memory cells. When these memory lymphocytes meet an antigen for a second time, they respond rapidly and specifically to this antigen. This is why vaccines can prevent certain disorders."
+    ],
+    "low": [
+      "Blood diseases like Hodgkin’s disease",
+      "Autoimmune disorders like lupus",
+      "Infectious diseases like tuberculosis, AIDS, and viral hepatitis",
+      "Radiation and chemotherapy treatments",
+      "Steroid therapy",
+      {
+        "Others (very rare inherited conditions):": [
+          "Ataxia telangiectasia",
+          "DiGeorge anomaly",
+          "Severe combined immunodeficiency syndrome",
+          "Wiskott-Aldrich syndrome"
+        ]
+      }
+    ],
+    "high": [
+      "Your body is fighting an infection. It’s usually temporary and harmless.",
+      "Hepatitis",
+      "HIV and AIDS",
+      "Syphilis",
+      "Tuberculosis",
+      "An underactive thyroid (hypothyroidism)",
+      "Mononucleosis",
+      "Whooping cough",
+      "Acute lymphocytic leukemia",
+      "Chronic lymphocytic leukemia",
+      "Lymphoma"
+    ]
+  },
+  {
+    "name": "LYM%",
+    "about": [
+      "LYM stand for Lymphocytes which are a type of white blood cell. They’re an important part of your immune system. About 20% to 40% of your white blood cells are lymphocytes. Lymphocytes are formed in your bone marrow. Lymphocytes are able to remember antigens, which are foreign substances that provoke your body’s immune reaction. These include bacteria, viruses, and toxins. After an encounter with an antigen, some lymphocytes develop into memory cells. When these memory lymphocytes meet an antigen for a second time, they respond rapidly and specifically to this antigen. This is why vaccines can prevent certain disorders."
+    ],
+    "low": [
+      "Blood diseases like Hodgkin’s disease",
+      "Autoimmune disorders like lupus",
+      "Infectious diseases like tuberculosis, AIDS, and viral hepatitis",
+      "Radiation and chemotherapy treatments",
+      "Steroid therapy",
+      {
+        "Others (very rare inherited conditions):": [
+          "Ataxia telangiectasia",
+          "DiGeorge anomaly",
+          "Severe combined immunodeficiency syndrome",
+          "Wiskott-Aldrich syndrome"
+        ]
+      }
+    ],
+    "high": [
+      "Your body is fighting an infection. It’s usually temporary and harmless.",
+      "Hepatitis",
+      "HIV and AIDS",
+      "Syphilis",
+      "Tuberculosis",
+      "An underactive thyroid (hypothyroidism)",
+      "Mononucleosis",
+      "Whooping cough",
+      "Acute lymphocytic leukemia",
+      "Chronic lymphocytic leukemia",
+      "Lymphoma"
+    ]
+  },
+  {
+    "name": "MCH",
+    "about": [
+      "An MCH value refers to the average quantity of hemoglobin present in a single red blood cell. Hemoglobin is the protein in your red blood cells that transports oxygen to the tissues of your body. Your MCH value is related to two other values, mean corpuscular volume (MCV) and mean corpuscular hemoglobin concentration (MCHC). Together, MCH, MCV, and MCHC are sometimes referred to as red blood cell indices."
+    ],
+    "low": [
+      "Iron deficiency anemia",
+      "A genetic condition called thalassemia, in this condition, production of hemoglobin is limited."
+    ],
+    "high": [
+      "Anemia due to a deficiency of B vitamins, particularly B-12 and folate."
+    ]
+  },
+  {
+    "name": "MCHC",
+    "about": [
+      "MCHC is the average concentration of hemoglobin in your red blood cells. Hemoglobin is the protein molecule that allows red blood cells to carry oxygen to tissues within your body. Your MCHC can fall into low, normal, and high ranges, even if your red blood cell count is normal."
+    ],
+    "low": [
+      "Lack of iron",
+      "Inability to absorb iron (due to conditions like celiac disease, Crohn’s disease, and gastric bypass surgery)",
+      "Chronic low-grade blood loss over time (from a long menstrual cycle or peptic ulcers)",
+      "Hemolysis (premature destruction of red blood cells over time)"
+    ],
+    "high": [
+      "Autoimmune hemolytic anemia",
+      "Macrocytic anemia",
+      "Hereditary spherocytosis",
+      "Severe burns",
+      "Liver disease",
+      "Overactive thyroid",
+      "Medications"
+    ]
+  },
+  {
+    "name": "MONO#",
+    "about": [
+      "MONO stand for monocytes which are a type of white blood cell that comes from bone marrow. They can become either macrophage cells or dendritic cells. Monocytes, along with other kinds of white blood cells, help the body fight disease and infection. When they become dendritic cells, they play a part in launching the inflammatory and anti-inflammatory processes that are part of your body’s immune response to infection. As macrophage cells, they can destroy microorganisms and foreign material, get rid of dead cells, and boost the body’s immune response."
+    ],
+    "low": [
+      "Chemotherapy and radiation therapy, which can injure bone marrow",
+      "HIV and AIDS, which weaken the body’s immune system",
+      "Sepsis, an infection of the bloodstream"
+    ],
+    "high": [
+      "Infection",
+      "Autoimmune disease, cells such as monocytes go after healthy cells in your body by mistake.",
+      "Chronic infections",
+      "Chronic inflammatory diseases, such as inflammatory bowel disease",
+      "Bacterial infections, such as tuberculosis, brucellosis, syphilis, and subacute bacterial endocarditis",
+      "Leukemia and other types of cancer, including lymphoma and multiple myeloma",
+      "Sarcoidosis, a disease in which abnormal levels of inflammatory cells gather in multiple organs of the body",
+      "Langerhans cell histiocytosis, a rare disorder that can damage tissue in the body"
+    ]
+  },
+  {
+    "name": "MONO%",
+    "about": [
+      "MONO stand for monocytes which are a type of white blood cell that comes from bone marrow. They can become either macrophage cells or dendritic cells. Monocytes, along with other kinds of white blood cells, help the body fight disease and infection. When they become dendritic cells, they play a part in launching the inflammatory and anti-inflammatory processes that are part of your body’s immune response to infection. As macrophage cells, they can destroy microorganisms and foreign material, get rid of dead cells, and boost the body’s immune response."
+    ],
+    "low": [
+      "Chemotherapy and radiation therapy, which can injure bone marrow",
+      "HIV and AIDS, which weaken the body’s immune system",
+      "Sepsis, an infection of the bloodstream"
+    ],
+    "high": [
+      "Infection",
+      "Autoimmune disease, cells such as monocytes go after healthy cells in your body by mistake.",
+      "Chronic infections",
+      "Chronic inflammatory diseases, such as inflammatory bowel disease",
+      "Bacterial infections, such as tuberculosis, brucellosis, syphilis, and subacute bacterial endocarditis",
+      "Leukemia and other types of cancer, including lymphoma and multiple myeloma",
+      "Sarcoidosis, a disease in which abnormal levels of inflammatory cells gather in multiple organs of the body",
+      "Langerhans cell histiocytosis, a rare disorder that can damage tissue in the body"
+    ]
+  },
+  {
+    "name": "MPV",
+    "about": [
+      "MPV stands for mean platelet volume. Platelets are small blood cells that stick together to make blood clots that stop or slow bleeding when you have a cut or injury. Platelets are made in your bone marrow. An MPV blood test measures the average size of your platelets. The test can help diagnose bleeding disorders and diseases of the bone marrow."
+    ],
+    "low": [
+      "Certain cancers",
+      "Side effects from certain medicines",
+      "Aplastic anemia",
+      "Autoimmune diseases",
+      "Bacterial or viral infections",
+      "Genetic conditions",
+      "Alcohol use disorder (AUD)"
+    ],
+    "high": [
+      "Thrombocytopenia, not having enough platelets",
+      "Myeloproliferative diseases, blood cancers in which the bone marrow makes too many platelets or other blood cells",
+      "Preeclampsia, a complication in pregnancy that causes high blood pressure. It usually starts after the 20th week of pregnancy.",
+      "Heart disease",
+      "Diabetes",
+      "Hemolytic anemia"
+    ]
+  },
+  {
+    "name": "NE%",
+    "about": [
+      "Neutrophils are a type of white blood cell. In fact, most of the white blood cells that lead the immune system’s response are neutrophils. There are four other types of white blood cells. Neutrophils are the most plentiful type, making up 55 to 70 percent of your white blood cells. White blood cells, also called leukocytes, are a key part of your immune system."
+    ],
+    "low": [
+      "Some drugs, including those used in chemotherapy",
+      "Suppressed immune system",
+      "Bone marrow failure",
+      "Aplastic anemia",
+      "Febrile neutropenia, which is a medical emergency",
+      "Congenital disorders, such as Kostmann syndrome and cyclic neutropenia",
+      "Hepatitis A, B, or C",
+      "HIV/AIDS",
+      "Sepsis",
+      "Autoimmune diseases, including rheumatoid arthritis",
+      "Leukemia",
+      "Myelodysplastic syndromes"
+    ],
+    "high": [
+      "Infection, most likely bacterial",
+      "Noninfectious inflammation",
+      "Injury",
+      "Surgery",
+      "Smoking cigarettes or sniffing tobacco",
+      "High stress level",
+      "Excessive exercise",
+      "Steroid use",
+      "Heart attacks",
+      "Chronic myeloid leukemia"
+    ]
+  },
+  {
+    "name": "PCT",
+    "about": [
+      "A procalcitonin test measures the level of procalcitonin in your blood. Normally, you have very low levels of procalcitonin in your blood. But if you have a serious bacterial infection, the cells in many parts of your body will release procalcitonin into your bloodstream. A high level of procalcitonin in your blood may be a sign of a serious infection or sepsis."
+    ],
+    "low": ["Unlikely"],
+    "high": [
+      {
+        "Slightly high levels": [
+          "A local bacterial infection, such as a urinary tract infection",
+          "An infection from another cause, such as a virus",
+          "A systemic bacterial infection that is just beginning"
+        ]
+      },
+      {
+        "Moderate to mildly high levels": [
+          "The earlier stages of a systemic bacterial infection",
+          "Kidney infection, in children only",
+          "Conditions other than infections, such as tissue damage from trauma, serious burns, recent surgery, severe heart attack"
+        ]
+      },
+      "Most likely have sepsis",
+      "May have a high risk of developing severe sepsis and septic shock, a life-threatening condition when your organs don't get enough blood to work properly",
+      "May have a serious systemic bacterial infection that increases your risk for sepsis"
+    ]
+  },
+  {
+    "name": "PCT",
+    "about": [
+      "A procalcitonin test measures the level of procalcitonin in your blood. Normally, you have very low levels of procalcitonin in your blood. But if you have a serious bacterial infection, the cells in many parts of your body will release procalcitonin into your bloodstream. A high level of procalcitonin in your blood may be a sign of a serious infection or sepsis."
+    ],
+    "low": ["Unlikely"],
+    "high": [
+      {
+        "Slightly high levels": [
+          "A local bacterial infection, such as a urinary tract infection",
+          "An infection from another cause, such as a virus",
+          "A systemic bacterial infection that is just beginning"
+        ]
+      },
+      {
+        "Moderate to mildly high levels": [
+          "The earlier stages of a systemic bacterial infection",
+          "Kidney infection, in children only",
+          "Conditions other than infections, such as tissue damage from trauma, serious burns, recent surgery, severe heart attack"
+        ]
+      },
+      "Most likely have sepsis",
+      "May have a high risk of developing severe sepsis and septic shock, a life-threatening condition when your organs don't get enough blood to work properly",
+      "May have a serious systemic bacterial infection that increases your risk for sepsis"
+    ]
+  }
+]

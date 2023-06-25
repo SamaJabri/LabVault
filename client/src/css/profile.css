@@ -1,0 +1,444 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=M+PLUS+Rounded+1c:wght@400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}
+
+.ternary {
+  color: #deb992;
+}
+
+.warning-message {
+  color: #8d2121;
+  margin-top: -1rem;
+  margin-bottom: 0.5rem;
+  background-color: rgba(141, 33, 33, 0.2);
+  border-radius: 0.2rem;
+  border: none;
+  padding: 0.8rem 1.3rem;
+  text-align: center;
+}
+
+#active-button {
+  padding: 0.3rem 0.9rem;
+  color: white;
+  background-color: #218d87;
+  border: 1px solid white;
+  border-radius: 0.14rem;
+  outline: none;
+}
+#active-button:hover {
+  cursor: pointer;
+}
+
+.dark #active-button {
+  padding: 0.3rem 0.9rem;
+  color: #0e3b39;
+  background-color: white;
+  border: 1px solid #0e3b39;
+  border-radius: 0.14rem;
+  outline: none;
+}
+.dark #active-button:hover {
+  cursor: pointer;
+}
+
+.profile {
+  padding: 1rem 0;
+  margin: 0 5%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  height: 100%;
+}
+.profile__image {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: center;
+}
+.profile__image-options {
+  display: flex;
+  gap: 1rem;
+}
+.profile__image-options input {
+  display: none;
+}
+.profile__image-options button {
+  font-size: 1.3rem;
+  height: 2.5rem;
+}
+.profile__image-options button:first-child {
+  padding: 0.3rem 0.9rem;
+  color: white;
+  background-color: #218d87;
+  border: 1px solid white;
+  border-radius: 0.14rem;
+  outline: none;
+}
+.profile__image-options button:first-child:hover {
+  cursor: pointer;
+}
+.profile__image-options button:last-child {
+  padding: 0.3rem 0.9rem;
+  color: #218d87;
+  background-color: white;
+  border: 1px solid #218d87;
+  border-radius: 0.14rem;
+  outline: none;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+.profile__image-options button:last-child:hover {
+  cursor: pointer;
+}
+.profile__image img {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 10rem;
+}
+.profile__user-avatar {
+  width: 8rem;
+  height: 8rem;
+  border: none;
+  border-radius: 14rem;
+  background-color: #218d87;
+  font-size: 2.3529411765rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  position: relative;
+}
+.profile__user-avatar:hover {
+  cursor: pointer;
+}
+.profile__user-avatar__change {
+  width: 100%;
+  height: 40%;
+  /* top-right top-left bottom-left bottom-right */
+  /* or from 10.30 clockwise */
+  background: radial-gradient(ellipse at 50% 116%, rgba(0, 0, 0, 0.5411764706) 70%, transparent 70%);
+  transform: rotate(180deg);
+  position: absolute;
+  bottom: -0.1rem;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.profile__user-avatar__change .icon {
+  transform: rotate(180deg);
+}
+.profile__info {
+  margin-top: 2rem;
+}
+.profile__info h2 {
+  color: #0e3b39;
+  margin-bottom: 1.2rem;
+}
+.profile__info p {
+  color: #218d87;
+  font-weight: bold;
+  font-size: large;
+  margin-bottom: 0.7rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.profile__info p span {
+  font-weight: normal;
+}
+.profile__info-edit {
+  display: flex;
+  justify-content: space-between;
+}
+.profile__edit {
+  display: flex;
+  flex-direction: column;
+}
+.profile__edit label {
+  color: #218d87;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+.profile__edit input,
+.profile__edit select {
+  color: #218d87;
+  background-color: white;
+  font-size: 1.2rem;
+  padding: 0.4rem 0.2rem;
+  border: 1px solid #218d87;
+  border-radius: 0.2rem;
+  margin-bottom: 0.8rem;
+  margin-top: 0.2rem;
+  outline: none;
+}
+.profile__edit input::-webkit-outer-spin-button, .profile__edit input::-webkit-inner-spin-button,
+.profile__edit select::-webkit-outer-spin-button,
+.profile__edit select::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.profile__edit input[type=number],
+.profile__edit select[type=number] {
+  -moz-appearance: textfield;
+}
+.profile__edit input[type=submit],
+.profile__edit select[type=submit] {
+  padding: 0.3rem 0.9rem;
+  color: white;
+  background-color: #218d87;
+  border: 1px solid white;
+  border-radius: 0.14rem;
+  outline: none;
+  margin-top: 1.4rem;
+  height: 2.7rem;
+}
+.profile__edit input[type=submit]:hover,
+.profile__edit select[type=submit]:hover {
+  cursor: pointer;
+}
+.profile__edit input option:hover,
+.profile__edit select option:hover {
+  cursor: pointer;
+  background-color: #218d87;
+  color: white;
+}
+.profile__bmi-info {
+  padding: 1rem 0;
+  margin: 0 5%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin-top: 2rem;
+  color: #0e3b39;
+}
+.profile__bmi-info h3 {
+  width: 100%;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+.profile__bmi-info p {
+  color: #0e3b39;
+  font-weight: normal;
+  gap: 0;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.profile__bmi-info li {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-left: 1rem;
+}
+@media (min-width: 1200px) {
+  .profile {
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+  }
+  .profile__image {
+    width: 45%;
+    gap: 3rem;
+    border-right: 1px solid #218d87;
+    position: fixed;
+    left: 0;
+    top: 10rem;
+  }
+  .profile__image-options {
+    display: flex;
+    gap: 1rem;
+  }
+  .profile__image-options button {
+    font-size: 1.5rem;
+    height: 2.5rem;
+  }
+  .profile__image img {
+    width: 18rem;
+    height: 18rem;
+  }
+  .profile__user-avatar {
+    width: 18rem;
+    height: 18rem;
+    border: none;
+    border-radius: 14rem;
+    background-color: #218d87;
+    font-size: 5.2941176471rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .profile__user-avatar:hover {
+    cursor: pointer;
+  }
+  .profile__user-avatar__change .icon {
+    font-size: 3rem;
+  }
+  .profile__info {
+    width: 50%;
+  }
+  .profile__info h2 {
+    font-size: 1.7rem;
+    margin-bottom: 1.6rem;
+  }
+  .profile__info p {
+    font-size: 1.3rem;
+  }
+  .profile__info-edit {
+    display: flex;
+    justify-content: space-between;
+  }
+  .profile__edit {
+    margin-bottom: -5rem;
+  }
+  .profile__bmi-info h3 {
+    font-size: 1.5rem;
+  }
+  .profile__bmi-info p {
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+  }
+  .profile__bmi-info li {
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+  }
+}
+
+.bmi {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dark .profile__image-options button:first-child {
+  padding: 0.3rem 0.9rem;
+  color: white;
+  background-color: #0e3b39;
+  border: 1px solid white;
+  border-radius: 0.14rem;
+  outline: none;
+}
+.dark .profile__image-options button:first-child:hover {
+  cursor: pointer;
+}
+.dark .profile__image-options button:last-child {
+  padding: 0.3rem 0.9rem;
+  color: #0e3b39;
+  background-color: white;
+  border: 1px solid #0e3b39;
+  border-radius: 0.14rem;
+  outline: none;
+}
+.dark .profile__image-options button:last-child:hover {
+  cursor: pointer;
+}
+.dark .profile__user-avatar {
+  width: 8rem;
+  height: 8rem;
+  border: none;
+  border-radius: 14rem;
+  background-color: white;
+  font-size: 2.3529411765rem;
+  color: #0e3b39;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.dark .profile__user-avatar:hover {
+  cursor: pointer;
+}
+.dark .profile__info h2 {
+  color: white;
+}
+.dark .profile__info p {
+  color: white;
+}
+.dark .profile__edit label {
+  color: white;
+}
+.dark .profile__edit input,
+.dark .profile__edit select {
+  color: #0e3b39;
+  background-color: white;
+  font-size: 1.2rem;
+  padding: 0.4rem 0.2rem;
+  border: 1px solid #0e3b39;
+  border-radius: 0.2rem;
+  margin-bottom: 0.8rem;
+  margin-top: 0.2rem;
+  outline: none;
+}
+.dark .profile__edit input::-webkit-outer-spin-button, .dark .profile__edit input::-webkit-inner-spin-button,
+.dark .profile__edit select::-webkit-outer-spin-button,
+.dark .profile__edit select::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.dark .profile__edit input[type=number],
+.dark .profile__edit select[type=number] {
+  -moz-appearance: textfield;
+}
+.dark .profile__edit input[type=submit],
+.dark .profile__edit select[type=submit] {
+  padding: 0.3rem 0.9rem;
+  color: white;
+  background-color: #0e3b39;
+  border: 1px solid white;
+  border-radius: 0.14rem;
+  outline: none;
+}
+.dark .profile__edit input[type=submit]:hover,
+.dark .profile__edit select[type=submit]:hover {
+  cursor: pointer;
+}
+.dark .profile__edit input option:hover,
+.dark .profile__edit select option:hover {
+  cursor: pointer;
+  background-color: #218d87;
+  color: white;
+}
+.dark .profile__bmi-info {
+  color: white;
+}
+.dark .profile__bmi-info p {
+  color: white;
+}
+@media (min-width: 1200px) {
+  .dark .profile__image {
+    border-right-color: white;
+  }
+  .dark .profile__user-avatar {
+    width: 18rem;
+    height: 18rem;
+    border: none;
+    border-radius: 14rem;
+    background-color: white;
+    font-size: 5.2941176471rem;
+    color: #0e3b39;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .dark .profile__user-avatar:hover {
+    cursor: pointer;
+  }
+}
+
+/*# sourceMappingURL=profile.css.map */

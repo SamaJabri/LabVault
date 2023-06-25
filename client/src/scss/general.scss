@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=M+PLUS+Rounded+1c:wght@400;500&display=swap");
+$color-primary: #218d87;
+$color-secondary: #0e3b39;
+$color-ternary: #deb992;
+
+$color-primary-disabled: rgba(33, 141, 135, 0.12);
+$color-text-disabled: rgba(0, 0, 0, 0.26);
+
+$warning: #8d2121;
+$warning-dark: #ff6262;
+
+$xs: 320px;
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+$xxl: 1440px;
+
+@mixin button($bg-color, $color) {
+  padding: 0.3rem 0.9rem;
+  color: $color;
+  background-color: $bg-color;
+  border: 1px solid $color;
+  border-radius: 0.14rem;
+  outline: none;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+@mixin input($color: $color-primary) {
+  color: $color;
+  background-color: white;
+  font-size: 1.2rem;
+  padding: 0.4rem 0.2rem;
+  border: 1px solid $color;
+  border-radius: 0.2rem;
+  margin-bottom: 0.8rem;
+  margin-top: 0.2rem;
+  outline: none;
+
+  &::-webkit-outer-spin-button,
+  &::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  &[type="number"] {
+    -moz-appearance: textfield;
+  }
+}
+
+@mixin userAvatar(
+  $width: 3rem,
+  $height: 3rem,
+  $backgroundColor: $color-primary,
+  $color: white
+) {
+  width: $width;
+  height: $height;
+  border: none;
+  border-radius: 14rem;
+  background-color: $backgroundColor;
+  font-size: calc($width / 3.4);
+  color: $color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+@mixin searchBar(
+  $height: 3.5rem,
+  $borderRadius: 0.3rem,
+  $left: 0rem,
+  $fieldPadding: 3.5rem
+) {
+  display: flex;
+  align-items: center;
+  position: relative;
+  @content;
+
+  &__field {
+    width: 100%;
+    height: $height;
+    padding: 0 1rem;
+    padding-left: $fieldPadding;
+    border: none;
+    border-radius: $borderRadius;
+    outline: none;
+    background-color: #f3f3f4;
+    color: $color-primary;
+    transition: 0.3s ease;
+    font-size: 1.25rem;
+
+    &::placeholder {
+      color: #9e9ea7;
+    }
+
+    &:focus,
+    &:hover {
+      outline: none;
+      border-color: $color-primary;
+      background-color: #fff;
+      box-shadow: 0 0 0 4px $color-primary-disabled;
+    }
+
+    &::-webkit-search-cancel-button {
+      display: none;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+
+  .icon {
+    position: absolute;
+    padding: 0.3rem;
+    left: $left;
+    margin-left: 0.5rem;
+    height: 60%;
+    border-radius: $borderRadius;
+  }
+}
+
+@mixin searchBarDark($bgColor: transparent) {
+  &__field {
+    background-color: #244947;
+    color: white;
+
+    &:focus,
+    &:hover {
+      box-shadow: none;
+    }
+
+    &::-webkit-search-cancel-button {
+      color: white;
+      background: white;
+      fill: white;
+    }
+  }
+
+  .icon {
+    background-color: $bgColor;
+  }
+}
+
+@mixin animateDropShadow($color) {
+  filter: drop-shadow(0 0 5px $color);
+  animation: rotate 2s infinite alternate;
+
+  @keyframes rotate {
+    from {
+      transform: rotate(-10deg);
+      filter: drop-shadow(5px 5px 5px $color);
+    }
+    to {
+      transform: rotate(10deg);
+      filter: drop-shadow(-5px 5px 5px $color);
+    }
+  }
+}
+
+@mixin responsive($query) {
+  @media (min-width: $query) {
+    @content;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  //font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}
+
+.ternary {
+  color: $color-ternary;
+}
+
+.warning-message {
+  color: $warning;
+  margin-top: -1rem;
+  margin-bottom: 0.5rem;
+  background-color: #8d212133;
+  border-radius: 0.2rem;
+  border: none;
+  padding: 0.8rem 1.3rem;
+  text-align: center;
+}
+
+#active-button {
+  @include button($color-primary, white);
+}
+
+.dark {
+  #active-button {
+    @include button(white, $color-secondary);
+  }
+}

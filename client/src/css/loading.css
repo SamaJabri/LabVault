@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=M+PLUS+Rounded+1c:wght@400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}
+
+.ternary {
+  color: #deb992;
+}
+
+.warning-message {
+  color: #8d2121;
+  margin-top: -1rem;
+  margin-bottom: 0.5rem;
+  background-color: rgba(141, 33, 33, 0.2);
+  border-radius: 0.2rem;
+  border: none;
+  padding: 0.8rem 1.3rem;
+  text-align: center;
+}
+
+#active-button {
+  padding: 0.3rem 0.9rem;
+  color: white;
+  background-color: #218d87;
+  border: 1px solid white;
+  border-radius: 0.14rem;
+  outline: none;
+}
+#active-button:hover {
+  cursor: pointer;
+}
+
+.dark #active-button {
+  padding: 0.3rem 0.9rem;
+  color: #0e3b39;
+  background-color: white;
+  border: 1px solid #0e3b39;
+  border-radius: 0.14rem;
+  outline: none;
+}
+.dark #active-button:hover {
+  cursor: pointer;
+}
+
+.loading {
+  padding: 1rem 0;
+  margin: 0 5%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  color: #218d87;
+  text-align: center;
+}
+.loading img {
+  width: 10rem;
+  height: 10rem;
+  filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.26));
+  animation: rotate 2s infinite alternate;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(-10deg);
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.26));
+  }
+  to {
+    transform: rotate(10deg);
+    filter: drop-shadow(-5px 5px 5px rgba(0, 0, 0, 0.26));
+  }
+}
+
+.dark .loading {
+  color: white;
+}
+.dark .loading img {
+  filter: drop-shadow(0 0 5px rgba(33, 141, 135, 0.12));
+  animation: rotate 2s infinite alternate;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(-10deg);
+    filter: drop-shadow(5px 5px 5px rgba(33, 141, 135, 0.12));
+  }
+  to {
+    transform: rotate(10deg);
+    filter: drop-shadow(-5px 5px 5px rgba(33, 141, 135, 0.12));
+  }
+}
+
+/*# sourceMappingURL=loading.css.map */
