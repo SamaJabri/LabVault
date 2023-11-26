@@ -30,12 +30,6 @@
         &:first-child {
           @include button($color-primary, white);
         }
-
-        &:last-child {
-          @include button(white, $color-primary);
-          padding-left: 1.5rem;
-          padding-right: 1.5rem;
-        }
       }
     }
 
@@ -43,6 +37,18 @@
       width: 8rem;
       height: 8rem;
       border-radius: 10rem;
+    }
+  }
+
+  &__save-image {
+    @include button(white, $color-primary);
+
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+
+    &:disabled {
+      @include button($color-primary-disabled, $color-text-disabled);
+      cursor: default !important;
     }
   }
 
@@ -256,11 +262,20 @@
           &:first-child {
             @include button($color-secondary, white);
           }
-
+          /*
           &:last-child {
             @include button(white, $color-secondary);
-          }
+          } */
         }
+      }
+    }
+
+    &__save-image {
+      @include button(white, $color-secondary);
+
+      &:disabled {
+        @include button($color-primary-disabled, rgba(255, 255, 255, 0.5));
+        cursor: default;
       }
     }
 

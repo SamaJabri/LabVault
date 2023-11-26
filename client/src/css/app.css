@@ -431,6 +431,11 @@ button {
 .dark .header__tests-button {
   color: white;
 }
+.dark .header .search {
+  /*   .icon {
+    background-color: $bgColor;
+  } */
+}
 .dark .header .search__field {
   background-color: #244947;
   color: white;
@@ -442,9 +447,6 @@ button {
   color: white;
   background: white;
   fill: white;
-}
-.dark .header .search .icon {
-  background-color: #0e3b39;
 }
 @media (min-width: 1200px) {
   .dark .header__user-avatar {
@@ -472,6 +474,11 @@ button {
   background-color: #0e3b39;
   border-top-color: white;
 }
+.dark .navbar .search {
+  /*   .icon {
+    background-color: $bgColor;
+  } */
+}
 .dark .navbar .search__field {
   background-color: #244947;
   color: white;
@@ -483,9 +490,6 @@ button {
   color: white;
   background: white;
   fill: white;
-}
-.dark .navbar .search .icon {
-  background-color: transparent;
 }
 .dark .icon {
   color: white;

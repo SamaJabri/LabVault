@@ -62,7 +62,7 @@ const Profile = () => {
     e.preventDefault();
 
     const { name, surname, gender, birthday, weight, height } = e.currentTarget;
-
+    console.log(e.currentTarget);
     const updatedUser = {
       name: name.value,
       surname: surname.value,
@@ -75,8 +75,6 @@ const Profile = () => {
     UpdatePatientInfo(updatedUser);
     toggleEdit(e);
   };
-
-  console.log(currentPatient);
 
   return (
     <div className="profile">
@@ -112,7 +110,14 @@ const Profile = () => {
             Upload Image
           </button>
           <input type="file" ref={uploadImage} onChange={handleImageUpload} />
-          <button onClick={saveImage}>Save</button>
+          {console.log(userAvatar)}
+          <button
+            onClick={saveImage}
+            className="profile__save-image"
+            disabled={!userAvatar.image}
+          >
+            Save
+          </button>
         </div>
       </div>
 

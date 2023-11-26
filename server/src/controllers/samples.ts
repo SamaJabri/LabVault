@@ -559,21 +559,23 @@ const authorizeLogin = async (req: Request, res: Response) => {
     username
   );
 
-  const patientAge = await db.oneOrNone(
-    `SELECT * FROM patients_info WHERE id = $1`,
-    patient.id
-  );
-
-  const patientInfo = { ...patient, ...patientAge };
-
   if (!patient) {
     return res
       .status(404)
       .json({ msg: "User data not found, try signing up first" });
-  } else if (patient && patient.password !== password) {
-    return res.status(401).json({ msg: "Wrong username or password" });
   } else {
-    return res.status(200).json(patientInfo);
+    const patientAge = await db.oneOrNone(
+      `SELECT * FROM patients_info WHERE id = $1`,
+      patient.id
+    );
+
+    const patientInfo = { ...patient, ...patientAge };
+
+    if (patient && patient.password !== password) {
+      return res.status(401).json({ msg: "Wrong username or password" });
+    } else {
+      return res.status(200).json(patientInfo);
+    }
   }
 };
 

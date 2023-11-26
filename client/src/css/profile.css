@@ -91,7 +91,12 @@ button {
 .profile__image-options button:first-child:hover {
   cursor: pointer;
 }
-.profile__image-options button:last-child {
+.profile__image img {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 10rem;
+}
+.profile__save-image {
   padding: 0.3rem 0.9rem;
   color: #218d87;
   background-color: white;
@@ -101,13 +106,20 @@ button {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
-.profile__image-options button:last-child:hover {
+.profile__save-image:hover {
   cursor: pointer;
 }
-.profile__image img {
-  width: 8rem;
-  height: 8rem;
-  border-radius: 10rem;
+.profile__save-image:disabled {
+  padding: 0.3rem 0.9rem;
+  color: rgba(0, 0, 0, 0.26);
+  background-color: rgba(33, 141, 135, 0.12);
+  border: 1px solid rgba(0, 0, 0, 0.26);
+  border-radius: 0.14rem;
+  outline: none;
+  cursor: default !important;
+}
+.profile__save-image:disabled:hover {
+  cursor: pointer;
 }
 .profile__user-avatar {
   width: 8rem;
@@ -325,6 +337,12 @@ button {
   justify-content: space-between;
 }
 
+.dark .profile__image-options button {
+  /*
+  &:last-child {
+    @include button(white, $color-secondary);
+  } */
+}
 .dark .profile__image-options button:first-child {
   padding: 0.3rem 0.9rem;
   color: white;
@@ -336,7 +354,7 @@ button {
 .dark .profile__image-options button:first-child:hover {
   cursor: pointer;
 }
-.dark .profile__image-options button:last-child {
+.dark .profile__save-image {
   padding: 0.3rem 0.9rem;
   color: #0e3b39;
   background-color: white;
@@ -344,7 +362,19 @@ button {
   border-radius: 0.14rem;
   outline: none;
 }
-.dark .profile__image-options button:last-child:hover {
+.dark .profile__save-image:hover {
+  cursor: pointer;
+}
+.dark .profile__save-image:disabled {
+  padding: 0.3rem 0.9rem;
+  color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(33, 141, 135, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 0.14rem;
+  outline: none;
+  cursor: default;
+}
+.dark .profile__save-image:disabled:hover {
   cursor: pointer;
 }
 .dark .profile__user-avatar {
